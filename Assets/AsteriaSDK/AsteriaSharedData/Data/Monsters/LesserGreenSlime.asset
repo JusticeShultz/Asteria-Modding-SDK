@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: LesserGreenSlime
+  m_EditorClassIdentifier: 
+  nameOfMonster: Lesser Green Slime
+  displayName: <bounce><color=#63ff83>Lesser Green Slime</color></bounce>
+  flavorText: A generic green slime. This ooze can commonly be found around Mistyvale,
+    it can be found in various shapes and sizes. The smaller and less complex it
+    is the weaker.
+  icons:
+  - {fileID: -126171511910317812, guid: 7908d13a51d28c340ad43fe13931ebd9, type: 3}
+  addedLevelDifficulty: 0.8
+  innateIncreasedLevel: 0
+  maxHealth: 4
+  minHealth: 3
+  baseMana: 1
+  baseStamina: 1.5
+  element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+  canDropLoot: 1
+  canDropRareLoot: 0
+  canDropCurrency: 0
+  canDropXP: 1
+  isBossMonster: 0
+  isWorldBoss: 0
+  isFloorGuardian: 0
+  isNamedMonster: 0
+  dieOutOfCombat: 0
+  lootPool: {fileID: 11400000, guid: 1e8eb8aef8f0ee54291cc5ac82df8f2e, type: 2}
+  monsterRarity: 0
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 0
+  constitution: 0
+  dexterity: 0
+  intelligence: 0
+  awareness: 0
+  stealth: 0
+  arcana: 3
+  luck: 1
+  initiative: 1
+  muscle: 0
+  brawn: 0
+  minDelayBetweenActions: 1.25
+  maxDelayBetweenActions: 4.5
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 1.65
+  innateCritChance: 2
+  startingStatusEffects: []
+  killTags: []
+  restSkill: {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateSkills:
+  - {fileID: 11400000, guid: 459232e7708d7d748a947102c95e9b69, type: 2}
+  - {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateLanguages:
+  - {fileID: 11400000, guid: 348a7df8080aed243b1a679f3bc6c94d, type: 2}
+  overrideAISkillUsageWeights: 1
+  MaxHealthWeights: 010000000000000001000000
+  QuarterHealthWeights: 010000000000000001000000
+  HalfHealthWeights: 010000000000000001000000
+  AboveHalfHealthWeights: 010000000000000001000000
+  canObtainXP: 1
+  evolves: 1
+  evolutionLevel: 5
+  evolution: {fileID: 11400000, guid: 68ad1cf97d22ebc4b87ff35bef337807, type: 2}
+  evolvesToSameLevel: 1
+  afterEvolutionLevel: 5

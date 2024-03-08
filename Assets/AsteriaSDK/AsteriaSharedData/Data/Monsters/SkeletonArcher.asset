@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: SkeletonArcher
+  m_EditorClassIdentifier: 
+  nameOfMonster: Armed Skeleton
+  displayName: <bounce>Armed Skeleton</bounce>
+  flavorText: A dead human reanimated as a skeleton. Where there are skeletons there
+    are necromancers...
+  icons:
+  - {fileID: 21300000, guid: 9ee16198718368a4697d82b50c427bd4, type: 3}
+  addedLevelDifficulty: 0.8
+  innateIncreasedLevel: 0
+  maxHealth: 1.2
+  minHealth: 0.8
+  baseMana: 1
+  baseStamina: 3
+  element: {fileID: 11400000, guid: 8f413af50d51f76428f4bf405b45a2ea, type: 2}
+  canDropLoot: 1
+  canDropRareLoot: 1
+  canDropCurrency: 1
+  canDropXP: 1
+  isBossMonster: 0
+  isWorldBoss: 0
+  isFloorGuardian: 0
+  isNamedMonster: 0
+  dieOutOfCombat: 0
+  lootPool: {fileID: 0}
+  monsterRarity: 0
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 1
+  constitution: 1
+  dexterity: 2
+  intelligence: 1
+  awareness: 0
+  stealth: 2
+  arcana: 3
+  luck: 0
+  initiative: 1
+  muscle: 0
+  brawn: 0
+  minDelayBetweenActions: 0.25
+  maxDelayBetweenActions: 3
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 2
+  innateCritChance: 12
+  startingStatusEffects: []
+  killTags: []
+  restSkill: {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateSkills:
+  - {fileID: 11400000, guid: b8386afdc09f3d34bbb7c885faf16bf3, type: 2}
+  - {fileID: 11400000, guid: 1637d7236f155584fbb7bf1e127666c7, type: 2}
+  - {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateLanguages:
+  - {fileID: 11400000, guid: 4c71e4367865830429bcc10a7bf2f735, type: 2}
+  overrideAISkillUsageWeights: 0
+  MaxHealthWeights: 
+  QuarterHealthWeights: 
+  HalfHealthWeights: 
+  AboveHalfHealthWeights: 
+  canObtainXP: 0
+  evolves: 0
+  evolutionLevel: 10
+  evolution: {fileID: 0}
+  evolvesToSameLevel: 0
+  afterEvolutionLevel: 5

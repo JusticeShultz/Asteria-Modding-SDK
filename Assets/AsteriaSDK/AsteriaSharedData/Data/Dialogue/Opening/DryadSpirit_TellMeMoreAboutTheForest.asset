@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: DryadSpirit_TellMeMoreAboutTheForest
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: Celestial Dryad Spirit
+    text: This place is known as Mistyvale Forest or Woods, depends who you ask really.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: This place encompasses a very large area, it gets its name from always
+      being valed in a thick mist.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: The mist is said to be made of the tears of the first Dryad, travelers
+      often get easily lost in it so there are very rarely visitors here.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: If you ever want to know more about the forest I would be happy to share
+      with you next time you return.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: Now that we have that taken care of, lets get you ready to go out into
+      the world.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 1
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: The spirit moves to the side, and then suddenly ... A huge flash of blinding
+      light appears before you...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Before you stands 3 pillars. On each of the pillars floats a unique weapon.
+      A sword, a staff and a bow, all bathed in the light of the skylight.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: GameBeginning_SelectWeapon
+    transitionPortrait: 1
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: Considering the forest revived you it means danger lurks among us, so you
+      should learn to use a weapon as soon as possible.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: Choose what you feel suits you best for now, you will find better weapons
+      on your journey.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 11400000, guid: 449d41d7f7f6e4748a638eb75e01a0e3, type: 2}
+  transitionToAfterEnd: {fileID: 0}

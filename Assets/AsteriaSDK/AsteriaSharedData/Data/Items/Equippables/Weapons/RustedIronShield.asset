@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a041dff4fa73d4dacba5f9e39373ca, type: 3}
+  m_Name: RustedIronShield
+  m_EditorClassIdentifier: 
+  nameOfItem: Rusted Iron Shield
+  flavorText: A wooden shield with rusted metal platings.
+  itemSetTag: 
+  itemSetCountRequired: 5
+  preGeneratedSetModifierStats: []
+  setGrantedSkills: []
+  itemImage: {fileID: 21300000, guid: d17db84e3775edc48993514251ad5b53, type: 3}
+  typeOfItem: 0
+  overrideTypeOfItemText: One Handed Shield
+  itemRarity: 0
+  grantedSkills:
+  - {fileID: 11400000, guid: 28116b6153d5086488fc8ef156762618, type: 2}
+  targetClasses: []
+  statFieldText: 
+  effectsList: []
+  onObtain: []
+  onEquip: []
+  onConsume: []
+  onAnyDamageTaken: []
+  onPhysicalDamageTaken: []
+  onMagicDamageTaken: []
+  searchupTag: RUSTEDSHIELD
+  itemHandRequirement: 0
+  usesDurability: 0
+  durability: 25
+  itemCanStack: 0
+  itemWeight: 10
+  overrideLevelOnCreation: 0
+  overrideLevel: 0
+  worth: 55
+  usageRequirements:
+    requiredStoryFlags: []
+    cannotHaveStoryFlags: []
+    requiredLanguages: []
+    requiredSkills: []
+    requiredItems: []
+    completedQuests: []
+    weatherRequired: None
+    timeRange: {x: 0, y: 24}
+    temperatureRange: {x: -9999, y: 9999}
+    dayRange: {x: -9999, y: 9999}
+    monthRange: {x: -9999, y: 9999}
+    yearRange: {x: -999999, y: 999999}
+    statRequirements: []
+    requiredBackgroundImage: []
+    requiredLocation: {fileID: 0}
+    requiredTab: 0
+    requiredLevel: 0
+  preGeneratedModifierStats:
+  - statToModify: 11
+    generatedValueRange: {x: 0, y: 0.75}
+    minMaxGeneratedValueRange: {x: 1, y: Infinity}
+    levelScalingMethod: 1
+    levelScale: 0.65
+  - statToModify: 12
+    generatedValueRange: {x: -0.75, y: 0.75}
+    minMaxGeneratedValueRange: {x: 0, y: Infinity}
+    levelScalingMethod: 1
+    levelScale: 0.65
+  - statToModify: 26
+    generatedValueRange: {x: -15, y: -5}
+    minMaxGeneratedValueRange: {x: -9999, y: 0}
+    levelScalingMethod: 0
+    levelScale: 0
+  elementalResistances: []

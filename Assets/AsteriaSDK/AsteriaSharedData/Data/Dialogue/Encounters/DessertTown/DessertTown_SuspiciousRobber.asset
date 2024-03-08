@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: DessertTown_SuspiciousRobber
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: 
+    text: 
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 0, g: 0, b: 0, a: 0}
+    characterIcon: {fileID: 0}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 1
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 0}
+  transitionToAfterEnd: {fileID: 0}

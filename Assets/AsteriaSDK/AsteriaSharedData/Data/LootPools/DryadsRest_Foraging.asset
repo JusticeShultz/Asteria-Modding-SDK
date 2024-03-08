@@ -1,0 +1,225 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67faa215626fc6b4398ab9aa2dc02d41, type: 3}
+  m_Name: DryadsRest_Foraging
+  m_EditorClassIdentifier: 
+  amountDroppedMin: -1
+  amountDroppedMax: 3
+  items:
+  - item: {fileID: 11400000, guid: 0d43de3645b1fb8408722974777e4945, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 100
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: cacdebef8cf6bc64f8ff7512fd3ce2b2, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 18
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: f3f2e4232ad1e394b8b03be32d636309, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 85
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: a6de22726fbb22b44b98f05eed884d18, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 40
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: 1d2d19fd5279b7c439ddd44e9eca50c9, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 12
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: b04b3283fc002da42bbb669f9a37b170, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 4
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: 7570f31fa38b67940854ac203509b087, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 4
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: 5b6b086c47d8c7e43807668b66e03dc8, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 22
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  - item: {fileID: 11400000, guid: 92ac4a236b8bd9c44a9e57a9afe8fa4a, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 55
+    usesInteractionRequirements: 0
+    interactionRequirements:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+  guaranteedItems: []

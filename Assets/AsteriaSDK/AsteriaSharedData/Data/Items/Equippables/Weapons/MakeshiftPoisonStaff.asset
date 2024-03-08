@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a041dff4fa73d4dacba5f9e39373ca, type: 3}
+  m_Name: MakeshiftPoisonStaff
+  m_EditorClassIdentifier: 
+  nameOfItem: Makeshift Poison Staff
+  flavorText: A staff made of brittle wood and a low quality poison based mana crystal.
+  itemSetTag: 
+  itemSetCountRequired: 5
+  preGeneratedSetModifierStats: []
+  setGrantedSkills: []
+  itemImage: {fileID: 21300000, guid: dbadf847325e8504784077349f1cba6f, type: 3}
+  typeOfItem: 0
+  overrideTypeOfItemText: Two Handed Staff
+  itemRarity: 0
+  grantedSkills:
+  - {fileID: 11400000, guid: 5e57199fa2bc90f4e92c2a3debf91957, type: 2}
+  targetClasses: []
+  statFieldText: 
+  effectsList: []
+  onObtain: []
+  onEquip: []
+  onConsume: []
+  onAnyDamageTaken: []
+  onPhysicalDamageTaken: []
+  onMagicDamageTaken: []
+  searchupTag: MakeshiftPoisonStaff
+  itemHandRequirement: 1
+  usesDurability: 0
+  durability: 25
+  itemCanStack: 0
+  itemWeight: 5
+  overrideLevelOnCreation: 0
+  overrideLevel: 0
+  worth: 125
+  usageRequirements:
+    requiredStoryFlags: []
+    cannotHaveStoryFlags: []
+    requiredLanguages: []
+    requiredSkills: []
+    requiredItems: []
+    completedQuests: []
+    weatherRequired: None
+    timeRange: {x: 0, y: 24}
+    temperatureRange: {x: -9999, y: 9999}
+    dayRange: {x: -9999, y: 9999}
+    monthRange: {x: -9999, y: 9999}
+    yearRange: {x: -999999, y: 999999}
+    statRequirements: []
+    requiredBackgroundImage: []
+    requiredLocation: {fileID: 0}
+    requiredTab: 0
+    requiredLevel: 0
+  preGeneratedModifierStats:
+  - statToModify: 3
+    generatedValueRange: {x: 0.4, y: 1.8}
+    minMaxGeneratedValueRange: {x: 1, y: Infinity}
+    levelScalingMethod: 1
+    levelScale: 0.75
+  elementalResistances: []

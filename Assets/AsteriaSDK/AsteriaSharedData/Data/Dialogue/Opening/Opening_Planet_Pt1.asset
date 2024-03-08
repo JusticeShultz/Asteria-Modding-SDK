@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: Opening_Planet_Pt1
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: 
+    text: A profound obscurity envelops your senses, an abyss so absolute it defies
+      comprehension - a yawning chasm of unadulterated emptiness stretching into
+      the bounds of an eternal void.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 11400000, guid: 0b8e5b1893a166148b44404487e70e2a, type: 2}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Yet, within the heart of this interminable emptiness, a miraculous transformation
+      occurs.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Abruptly and without rhyme or reason, existence materializes.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You awaken in the expanse of cosmic nothingness, suspended in the vastness
+      of space, a solitary soul adrift amidst the stars.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 11400000, guid: b292d0a9d1e778b42b0f27e0833a119e, type: 2}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Beside you, a benevolent presence radiates a soothing warmth, its very
+      essence imbued with a sense of solace that transcends mortal understanding.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Abruptly, the soothing warmth vanishes, whisked away like a fleeting dream,
+      leaving behind only a haunting sight.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 11400000, guid: 5b039246614e1114295da79db14f3f1c, type: 2}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Before your disoriented gaze, a celestial body emerges, a planet swathed
+      in the incandescent embrace of a crimson radiance.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 3
+  - name: 
+    text: An inexplicable aura of malevolence that reverberates through the cosmos,
+      an ominous force that defies all rational explanation.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: And then once again, darkness.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 11400000, guid: 8b321693e432a8842a2a2b5517b1c27d, type: 2}
+    learnLocationFromSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 2
+  associatedLocalizationTable: {fileID: 11400000, guid: 449d41d7f7f6e4748a638eb75e01a0e3, type: 2}
+  transitionToAfterEnd: {fileID: 11400000, guid: 0985b56064baa1b47a33ab180ae3b962, type: 2}

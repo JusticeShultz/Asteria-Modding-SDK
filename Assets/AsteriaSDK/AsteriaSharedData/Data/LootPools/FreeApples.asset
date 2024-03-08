@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67faa215626fc6b4398ab9aa2dc02d41, type: 3}
+  m_Name: FreeApples
+  m_EditorClassIdentifier: 
+  amountDroppedMin: 1
+  amountDroppedMax: 2
+  items: []
+  guaranteedItems:
+  - item: {fileID: 11400000, guid: a6081a22436b96a4da2c409dd532fe51, type: 2}
+    minPossible: 4
+    maxPossible: 5
+    dropWeight: 100

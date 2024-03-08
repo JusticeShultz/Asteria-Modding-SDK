@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e381003a09d304f941e273cbecc7ce, type: 3}
+  m_Name: Volley
+  m_EditorClassIdentifier: 
+  nameOfSkill: <color=#4a9e44><swing>Volley</swing></color>
+  flavorText: Consumes 45% max stamina ([MaxStamina,0.45]) to <swing>fire a volley
+    of arrows</swing>, dealing physical damage ([PhysicalDamage,1]).
+  skillImage: {fileID: 21300000, guid: e2f8a1bcdd1bac1478c217629ba48311, type: 3}
+  isMantra: 0
+  resourceCost: 2
+  aoeSize: 1
+  cooldownLength: 1.5
+  channelLength: 0
+  windupLength: 0.25
+  amountOfSkillChecks: 2
+  accuracy: 60
+  element: {fileID: 11400000, guid: 08310b1b84dad9340bd5fdf337dbbcc6, type: 2}
+  usageTags:
+  - usageTag:
+      usageType: 3
+      applyAs: 2
+      stringValue: 
+      intValue: 0
+      floatValue: 1
+      secondaryFloatValue: 1
+      boolValue: 0
+      statusEffect: {fileID: 0}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+        generatedModifiedStats: []
+        isBeingSold: 0
+        sellingRequirements:
+          requiredStoryFlags: []
+          cannotHaveStoryFlags: []
+          requiredLanguages: []
+          requiredSkills: []
+          requiredItems: []
+          completedQuests: []
+          weatherRequired: None
+          timeRange: {x: 0, y: 24}
+          temperatureRange: {x: -9999, y: 9999}
+          dayRange: {x: -9999, y: 9999}
+          monthRange: {x: -9999, y: 9999}
+          yearRange: {x: -999999, y: 999999}
+          statRequirements: []
+          requiredBackgroundImage: []
+          requiredLocation: {fileID: 0}
+          requiredTab: 0
+          requiredLevel: 0
+      location: {fileID: 0}
+      element: {fileID: 0}
+      playerClass: {fileID: 0}
+      monsterTemplate: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+      usesStatScaling: 0
+      statScalings: []
+    multiplyStrength: 45
+    tagHasRequirementsToExecute: 0
+    usageChance: 100
+    requirementForTag:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+    targetType: 1
+  - usageTag:
+      usageType: 0
+      applyAs: 0
+      stringValue: 
+      intValue: 0
+      floatValue: 1
+      secondaryFloatValue: 2
+      boolValue: 0
+      statusEffect: {fileID: 0}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+        generatedModifiedStats: []
+        isBeingSold: 0
+        sellingRequirements:
+          requiredStoryFlags: []
+          cannotHaveStoryFlags: []
+          requiredLanguages: []
+          requiredSkills: []
+          requiredItems: []
+          completedQuests: []
+          weatherRequired: None
+          timeRange: {x: 0, y: 24}
+          temperatureRange: {x: -9999, y: 9999}
+          dayRange: {x: -9999, y: 9999}
+          monthRange: {x: -9999, y: 9999}
+          yearRange: {x: -999999, y: 999999}
+          statRequirements: []
+          requiredBackgroundImage: []
+          requiredLocation: {fileID: 0}
+          requiredTab: 0
+          requiredLevel: 0
+      location: {fileID: 0}
+      element: {fileID: 11400000, guid: 4a2c4130a563ed84eadc4115a4c9bf43, type: 2}
+      playerClass: {fileID: 0}
+      monsterTemplate: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+      usesStatScaling: 1
+      statScalings:
+      - statToScaleBy: 2
+        scaleRatio: 1.5
+        statScalingType: 0
+        appliedOperation: 0
+        inputOperation: 2
+    multiplyStrength: 1
+    tagHasRequirementsToExecute: 0
+    usageChance: 100
+    requirementForTag:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+    targetType: 0
+  requiredClass: {fileID: 0}
+  languageRequired: {fileID: 0}
+  DamageClassification: 0
+  usability: 0
+  AISkillUsage: 0
+  startOnCooldown: 0

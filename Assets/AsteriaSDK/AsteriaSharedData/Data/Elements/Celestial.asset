@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec9b04cb4e0cb444846acc32b60f43e, type: 3}
+  m_Name: Celestial
+  m_EditorClassIdentifier: 
+  ElementName: Celestial
+  associatedColor: {r: 1, g: 0.91859037, b: 0.68553454, a: 1}
+  resistances:
+  - {fileID: 11400000, guid: 52b82f19d8cfebe41aa03a5fb2c64383, type: 2}
+  - {fileID: 11400000, guid: f8600b7b31ffd434aa4b8be851151531, type: 2}
+  - {fileID: 11400000, guid: a7ed0281d76323f4885e35cb38cc958f, type: 2}
+  - {fileID: 11400000, guid: 1cedefb826781be49b799c2552e915aa, type: 2}
+  weaknesses:
+  - {fileID: 11400000, guid: d203b638c57766347a55286b7413c3fa, type: 2}
+  - {fileID: 11400000, guid: e67df6ac0ece8e04b9197fb414b91520, type: 2}
+  - {fileID: 11400000, guid: cf9a8263c378a7044ae01f3e7dddcde3, type: 2}
+  - {fileID: 11400000, guid: 824e27f96450ca94583f9c6461da0712, type: 2}
+  associatedEnemyCard_Normal: {fileID: 0}
+  associatedEnemyCard_Elite: {fileID: 0}
+  associatedEnemyCard_Boss: {fileID: 0}

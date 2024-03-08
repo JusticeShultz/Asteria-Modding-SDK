@@ -1,0 +1,663 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: DryadsRest_ForcedEncounter_Tutorial01
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: 
+    text: After scouring around the sanctuarys dense foliage for about an hour, you
+      come across a clearing.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: d11f52d80a0b0a9459428a11adb345d5, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: At the center of the clearing stands a small shrine that captures your
+      attention. Within the confines of the shrine rests a glowing crystal, encased
+      in an intricately crafted glass prism.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You begin to approach it when suddenly the gravity around you slams you
+      to the ground, pinning you down, unable to move. "A trap maybe?" - you think
+      to yourself.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Every moment you lay pinned down by the gravitational weight, you feel
+      your mana drain away slowly. Your very life force eroding away...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Death only mere moments away; you lay watching your very life force being
+      sucked into the prism glowing in front of you...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You feel the last of your life force drain away, and then suddenly darkness...
+      Death maybe? One could not be sure...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 0b8e5b1893a166148b44404487e70e2a, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You feel the very core of your being begin to slowly crawl to a halt. Your
+      internal clock is beginning to shut down.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Suddenly, your mana core springs back to life; you feel a burst of mana
+      hit you, the mana merging into your very core, almost as if something was possessing
+      you.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 402593dded82ce54b99e0afb8b2e02c2, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You feel your life force returning, but also with the presence of something
+      new. It felt as if you weren't alone in your body, as if something else had
+      somehow joined with you.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Your mana had been forcibly taken from you, your very life essence taken
+      and then merged with another's. Your thoughts moved a million miles a minute;
+      there was no explanation for what had just occurred...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Before you knew it, you were laying on the ground with your eyes wide open,
+      looking at the small shrine, the crystal prism completely missing. The gravitational
+      weight had been lifted, and it was as if nothing had happened...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: a168d347bf8143d47b183994f926823f, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: A range of emotions and thoughts swept over you; what had just happened
+      was indescribable. If you had been human, you surely would have befallen the
+      cruel realities of fate, but your unique form had miraculously saved you...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You could still feel the life presence of another in your very core. You
+      had unwillingly taken on what could only be described as a leech. You could
+      feel it slowly sap away your mana, but your natural regeneration would balance
+      out with it...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: The feeling was very intrusive, but there was no obvious means of removing
+      it; you had the feeling that you were probably going to be stuck with this
+      parasite until you could locate a mage powerful enough to remove it.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You began to stand up; after such an overwhelming event, sleep was the
+      only thing in your mind you could think about. The pure exhaustion was overwhelming...
+      The thought of sleep was becoming an almost ravenous urge after only just a
+      moment.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Suddenly, you felt your mana core begin to vibrate, almost like it was
+      trying to transfer mana around in your body, but you were resisting it. The
+      exhaustion finally made you give in; if the leech had wanted you dead, it would
+      have already done so...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You stopped resisting, and then some of your mana began to pool out of
+      your body as if a spell was being cast without your control. After only a moment,
+      a portal had formed before you; where it led was a mystery, but it was obvious
+      that whatever was in your body wanted you to go through it.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You took a moment to breathe in before stepping into it. In an instant,
+      you stepped through the other side, greeted by what could only be described
+      as a camp. Before you laid an unlit campfire, a makeshift traveler's tent with
+      what looked like a bed in it, and a few other half-put-together forms of civilization.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 2b8ddc3fe6b505848a992e0a2f8bb394, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: GoToCampAnim
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Behind all of it in the distance stood a giant pyramid-like temple; looking
+      at it made the presence in your body emit a warm feeling. The sky was filled
+      with what looked to be the night, but everything around you was lit as if it
+      was day.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You had only a moment to observe your surroundings before the exhaustion
+      washed over you and clouded your thoughts again. You walked like a zombie to
+      the bed in the tent before you, collapsing onto the makeshift assortment of
+      blankets. You closed your eyes and felt everything slip away in an instant...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: .....
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 0b8e5b1893a166148b44404487e70e2a, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: ......
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: "You awaken feeling well-rested. The presence attached to your core feels
+      like it\u2019s still there, but now taking much less mana. Its existence no
+      longer noticeably impacts you. It\u2019s obvious it had opened the gateway
+      to this dimension, but how, you weren\u2019t really sure."
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 2b8ddc3fe6b505848a992e0a2f8bb394, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: "The more you analyzed the changes to your body, the more you realized
+      the presence attached to you didn\u2019t seem to have any consciousness; it
+      behaved as if it were fully mechanical in nature, much like a tool."
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: "Without some way to truly inspect what was attached to your mana core,
+      you would be left without answers it seemed. You raised yourself out of the
+      bed and exited the tent. You felt a slight worry about getting out of this
+      place, but just as soon as you had the thought of leaving, the presence within
+      you channeled some mana, but this time it wasn\u2019t your mana..."
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: The presence attached to you seemed to have developed its own mana pool,
+      and it reacted to your thoughts; it seemed you could open and close the entrance
+      of this place at will. To consider the presence a leech was no longer fitting;
+      it was rather a symbiotic relationship it seemed.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: You called upon the portal to exit this place and stepped through. Upon
+      stepping through, you found yourself exactly where you had been before; you
+      closed the portal and opened it one last time just to make sure it still worked,
+      to your amazement, it worked exactly as expected.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 11400000, guid: 6e1211a3c40c65d41b39e21279ce06a0, type: 2}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: GoToCampAnim
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Everything that had happened was a pure mystery to you; continuing to look
+      around the sanctuary seemed like the most obvious course of action for answers...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: GameBeginning_Tutorial02_CombatEncounter
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 11400000, guid: 8e25451f81d852a4b8869f552e67618e, type: 2}
+  transitionToAfterEnd: {fileID: 0}

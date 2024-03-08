@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a041dff4fa73d4dacba5f9e39373ca, type: 3}
+  m_Name: ElementalResistTest
+  m_EditorClassIdentifier: 
+  nameOfItem: Elemental Resist Test
+  flavorText: Debug item for testing the regeneration stats on the player.
+  itemSetTag: 
+  itemSetCountRequired: 5
+  preGeneratedSetModifierStats: []
+  setGrantedSkills: []
+  itemImage: {fileID: 21300000, guid: 20b50d8896d7cf945bfc9fdc5a5f1d55, type: 3}
+  typeOfItem: 2
+  overrideTypeOfItemText: NA
+  itemRarity: 0
+  grantedSkills: []
+  targetClasses: []
+  statFieldText: 
+  effectsList: []
+  onObtain: []
+  onEquip: []
+  onConsume: []
+  onAnyDamageTaken: []
+  onPhysicalDamageTaken: []
+  onMagicDamageTaken: []
+  searchupTag: ElementalResistTest
+  itemHandRequirement: 0
+  usesDurability: 0
+  durability: 25
+  itemCanStack: 0
+  itemWeight: 20
+  overrideLevelOnCreation: 0
+  overrideLevel: 0
+  worth: 25
+  usageRequirements:
+    requiredStoryFlags: []
+    cannotHaveStoryFlags: []
+    requiredLanguages: []
+    requiredSkills: []
+    requiredItems: []
+    completedQuests: []
+    weatherRequired: None
+    timeRange: {x: 0, y: 24}
+    temperatureRange: {x: -9999, y: 9999}
+    dayRange: {x: -9999, y: 9999}
+    monthRange: {x: -9999, y: 9999}
+    yearRange: {x: -999999, y: 999999}
+    statRequirements: []
+    requiredBackgroundImage: []
+    requiredLocation: {fileID: 0}
+    requiredTab: 0
+    requiredLevel: 0
+  preGeneratedModifierStats: []
+  elementalResistances:
+  - element: {fileID: 11400000, guid: ffb3e5d003d4a8d40b90aa861bcc9abe, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: 824e27f96450ca94583f9c6461da0712, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: c4b101860e0b3f8478e1f825a7352b48, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: e67df6ac0ece8e04b9197fb414b91520, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: 1744a017f825040469cd29232df1f3ef, type: 2}
+    currentResistance: 0.15
+  - element: {fileID: 11400000, guid: bd0b6dbc6a6a1134dbffe65fd354cee3, type: 2}
+    currentResistance: 0.15

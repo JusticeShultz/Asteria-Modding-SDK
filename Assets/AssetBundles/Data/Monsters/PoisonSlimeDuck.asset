@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: PoisonSlimeDuck
+  m_EditorClassIdentifier: 
+  nameOfMonster: Poison Slime Duck
+  displayName: <bounce><color=#63ff83>Poison Slime Duck</color></bounce>
+  flavorText: An absolute unit and menace to society. Prepare to die.
+  icons:
+  - {fileID: 21300000, guid: 84a57b488eb879f4a8a53d07abcb0dbc, type: 3}
+  - {fileID: 21300000, guid: c4d6102a9a0e69142bb57f253f2914f0, type: 3}
+  addedLevelDifficulty: 1
+  innateIncreasedLevel: 0
+  maxHealth: 8
+  minHealth: 7
+  baseMana: 3
+  baseStamina: 4
+  element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+  canDropLoot: 1
+  canDropRareLoot: 1
+  canDropCurrency: 1
+  canDropXP: 1
+  isBossMonster: 0
+  isWorldBoss: 0
+  isFloorGuardian: 0
+  isNamedMonster: 0
+  dieOutOfCombat: 0
+  lootPool: {fileID: 11400000, guid: 144ccb2b09ba1d644868e5c66f1d9944, type: 2}
+  monsterRarity: 0
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 1
+  constitution: 0
+  dexterity: 1
+  intelligence: 1
+  awareness: 2
+  stealth: 0
+  arcana: 1
+  luck: 3
+  initiative: 1
+  muscle: 0
+  brawn: 1
+  minDelayBetweenActions: 2.5
+  maxDelayBetweenActions: 5
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 1.65
+  innateCritChance: 2
+  startingStatusEffects: []
+  killTags: []
+  restSkill: {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateSkills:
+  - {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  - {fileID: 11400000, guid: 5e57199fa2bc90f4e92c2a3debf91957, type: 2}
+  - {fileID: 11400000, guid: 07f7adb0767344d4f9a472a5080c0745, type: 2}
+  - {fileID: 11400000, guid: 459232e7708d7d748a947102c95e9b69, type: 2}
+  - {fileID: 11400000, guid: c620f5cc78577b34fa1337fc45372501, type: 2}
+  - {fileID: 11400000, guid: d98b283ffbff4ad4e80ae32591f28d20, type: 2}
+  - {fileID: 11400000, guid: 35278ce2d7c2df447afd2d276d2ea866, type: 2}
+  - {fileID: 11400000, guid: 6fa9be5923b89084ba63214d95d4b47e, type: 2}
+  innateLanguages:
+  - {fileID: 11400000, guid: 348a7df8080aed243b1a679f3bc6c94d, type: 2}
+  overrideAISkillUsageWeights: 1
+  MaxHealthWeights: 00000000020000000c000000030000000b0000000d0000000c000000040000000500000000000000000000000000000001000000010000000100000001000000060000000600000006000000060000000600000006000000
+  QuarterHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d00000004000000050000000600000007000000080000000900000000000000010000000100000006000000060000000600000006000000
+  HalfHealthWeights: 01000000010000000a000000010000000000000002000000020000000d000000040000000500000006000000070000000800000009000000000000000100000006000000060000000600000006000000
+  AboveHalfHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d000000040000000500000006000000070000000800000009000000000000000100000001000000010000000600000006000000
+  canObtainXP: 1
+  evolves: 0
+  evolutionLevel: 10
+  evolution: {fileID: 0}
+  evolvesToSameLevel: 0
+  afterEvolutionLevel: 5

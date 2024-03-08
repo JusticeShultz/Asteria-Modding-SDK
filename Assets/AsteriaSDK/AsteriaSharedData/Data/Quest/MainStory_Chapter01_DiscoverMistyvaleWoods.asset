@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2bcb57061b625445b31d375f5d9ffe2, type: 3}
+  m_Name: MainStory_Chapter01_DiscoverMistyvaleWoods
+  m_EditorClassIdentifier: 
+  questType: 3
+  questName: Traveling Beyond Sanctuary
+  questShortExplanation: '<sprite=36> Explore around Dryads Rest for a way into the
+    Mistyvale Woods
+
+'
+  questExplanation: 'Explore around the sanctuary for a way into the Mistyvale Woods.
+    After level 2 you will be able to find the Mistyvale Woods and travel between
+    it and Dryads Rest.
+
+'
+  additionalQuestGoals: []
+  requiredQuestsToBeCompleted: []
+  startingProgress: 0
+  startingGoal: 100
+  targetMonsters: []
+  iRequirements:
+    requiredStoryFlags: []
+    cannotHaveStoryFlags: []
+    requiredLanguages: []
+    requiredSkills: []
+    requiredItems: []
+    completedQuests: []
+    weatherRequired: None
+    timeRange: {x: 0, y: 24}
+    temperatureRange: {x: -9999, y: 9999}
+    dayRange: {x: -9999, y: 9999}
+    monthRange: {x: -9999, y: 9999}
+    yearRange: {x: -999999, y: 999999}
+    statRequirements: []
+    requiredBackgroundImage: []
+    requiredLocation: {fileID: 11400000, guid: 087e9e4b0cb26914ba6f3d6da99f36aa, type: 2}
+    requiredTab: 0
+    requiredLevel: 0
+  questTag: TravelingBeyondSanctuary
+  questCompletionRewards:
+    minXP: 75
+    maxXP: 75
+    minCurrency: 0
+    maxCurrency: 0
+    table: []
+  triggeredUsageTagsOnQuestCompleted: []
+  nextQuests:
+  - {fileID: 11400000, guid: b2a3fcfd711bc9e4db5d7ac3703582e7, type: 2}
+  questCompletionDialogue: {fileID: 0}

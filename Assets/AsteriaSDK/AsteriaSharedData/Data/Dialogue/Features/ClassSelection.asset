@@ -1,0 +1,1187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: ClassSelection
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: 
+    text: Change Class
+    nameColor: {r: 0, g: 0, b: 0, a: 0}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 1
+    branchObjects:
+    - dialogueOptionText: No Class
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags: []
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: dc4c6ced514a53a4b817cea13546ad55, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Artificer
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Artificer
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 942166bdd9dfae44cb8aaf05b6aaa74c, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Assassin
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Assassin
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: cb7e2d6e7380f42459bf5337cec010a9, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Bard
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Bard
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 9d866744029debc479ac59afcc9343b2, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Berserker
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Berserker
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 27f448c61012fa54ba037116ac106927, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Cleric
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Cleric
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: c2dc6731a2bd7b14197526f3e82935cc, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Cryomancer
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Cryomancer
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: d378546b693683c44b813174a42d7d62, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Druid
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Druid
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 95effa925f603fa44a2cb860b037ad15, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Engineer
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Engineer
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 83e6f4e39a3ceab439ae231328e3c095, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Gambler
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Gambler
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 87ceacb7fa683ac4eb4e3a69f667cb99, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Hunter
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Hunter
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 5274b749a7c8cf94188985050dade900, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Knight
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Knight
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: d29065ad0317bdc4791487956c3e59d5, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Necromancer
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Necromancer
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: e161cecd309fbfb47b9600f699702b9e, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Ninja
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Ninja
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: b4dcce5a5f6eef84392c461073651a41, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Paladin
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Paladin
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: df739e1eb37d1984a9baccbb20b3c8fd, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Priest
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Priest
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: bd254bbd7dcb15d4a80ab87cde3604b7, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Pyromancer
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Pyromancer
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 866721f98b01c8445bc7b8213ae83d49, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Ranger
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Ranger
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 2a5f3061484f17d49b0437d3613e0f5f, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Scholar
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Scholar
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: dce4924cc3a8e9840ae7ac9067b7aca3, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Shaman
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Shaman
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: a7627d0954a11c747a49e2ee32c28010, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Summoner
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Summoner
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: b7e37e59701b29f4f96b65410f134e38, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Swashbuckler
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Swashbuckler
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 1f672c775513fee4f9955f348cd3a8dc, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Thief
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Thief
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: ff67bcf45e752e643bb9d440b3003494, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Warlock
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Warlock
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: daeab67932d1f344abd8c91f4d131462, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    - dialogueOptionText: Warrior
+      switchToDialogue: {fileID: 0}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - Class_Warrior
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+        weatherRequired: 
+        timeRange: {x: 0, y: 0}
+        temperatureRange: {x: 0, y: 0}
+        dayRange: {x: 0, y: 0}
+        monthRange: {x: 0, y: 0}
+        yearRange: {x: 0, y: 0}
+      usageTagsOnSelect:
+      - usageTag:
+          usageType: 54
+          applyAs: 0
+          usageAllowed: 0
+          stringValue: 
+          intValue: 0
+          floatValue: 0
+          secondaryFloatValue: 0
+          boolValue: 0
+          spriteValue: {fileID: 0}
+          statusEffect: {fileID: 0}
+          skill: {fileID: 0}
+          language: {fileID: 0}
+          item:
+            itemTemplate: {fileID: 0}
+            level: 0
+            rarityModValue: 0
+            currentDurability: 0
+            itemRarity: 0
+            stackCount: 0
+            stackID: 
+          location: {fileID: 0}
+          element: {fileID: 0}
+          playerClass: {fileID: 11400000, guid: 1ea26f6550873e347a7e57aab7e1da5a, type: 2}
+          _customExecutionScript:
+            script: {fileID: 0}
+        multiplyStrength: 1
+        usageChance: 100
+        targetType: 1
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 0}
+  transitionToAfterEnd: {fileID: 0}

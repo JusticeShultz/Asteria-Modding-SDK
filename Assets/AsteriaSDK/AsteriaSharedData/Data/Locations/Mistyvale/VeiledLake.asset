@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6b6f5bb815f8448aa7686bafdb51f8, type: 3}
+  m_Name: VeiledLake
+  m_EditorClassIdentifier: 
+  locationName: Veiled Lake
+  flavorText: Veiled Lake is a captivating and enigmatic body of water nestled deep
+    within the heart of a secluded forest. True to its name, the lake is veiled by
+    a delicate mist that hangs above its serene surface, lending an aura of mystery
+    to its presence. It is a place where the ethereal and earthly realms converge,
+    and its tranquil beauty has been the source of inspiration for countless tales
+    and legends.
+  travelable:
+  - {fileID: 11400000, guid: 087e9e4b0cb26914ba6f3d6da99f36aa, type: 2}
+  possibleEncounters: []
+  isTown: 0
+  showLocaleSwapText: 1
+  localePopupMaterial: {fileID: 0}
+  backgroundImage:
+  - {fileID: 21300000, guid: 576dc4a4849a3aa4f90d0b52e48d092d, type: 3}
+  - {fileID: 21300000, guid: 39827bbf54d871746adb2709077eddf9, type: 3}
+  - {fileID: 21300000, guid: 823b6a296b16c8d4b81a9077f5aef5c4, type: 3}
+  - {fileID: 21300000, guid: 74173f459a2db3744a1d602f52ce41d5, type: 3}
+  - {fileID: 21300000, guid: b23e4bcd7421688449976d8cf3e9730e, type: 3}
+  - {fileID: 21300000, guid: 521a5fcbee0788649a822969fda33eff, type: 3}
+  recommendedLevel: 5
+  encounterLevelVariabilityMin: -1
+  encounterLevelVariabilityMax: 2
+  generalClimateMin: 30
+  generalClimateAverage: 68
+  generalClimateMax: 95
+  possibleWeather:
+  - weatherEffect: {fileID: 2751619057974531277, guid: 86a19da72195e0a4d8ee71d03bfa1d2a, type: 3}
+    possibleDurationLengthRange: {x: 4, y: 8}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 100
+  - weatherEffect: {fileID: 2751619057974531277, guid: 74e64bd28ae5aff4c942294ece52a7e9, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 5}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 35
+  - weatherEffect: {fileID: 2751619057974531277, guid: 618a4dc8ec8b7da40bff555214734bcb, type: 3}
+    possibleDurationLengthRange: {x: 3, y: 6}
+    requiredTemperatureRange: {x: 70, y: 9999}
+    weight: 33
+  - weatherEffect: {fileID: 2751619057974531277, guid: 28f4a69dcc994734ea4f418f5990e0b2, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 22}
+    requiredTemperatureRange: {x: 33, y: 9999}
+    weight: 30
+  - weatherEffect: {fileID: 2751619057974531277, guid: 0c45f2470fe9a7b499b979bb8493db57, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 14}
+    requiredTemperatureRange: {x: -9999, y: 32}
+    weight: 30
+  - weatherEffect: {fileID: 2751619057974531277, guid: 4db222f8b1e529f40933aaf7a0cf77ab, type: 3}
+    possibleDurationLengthRange: {x: 6, y: 34}
+    requiredTemperatureRange: {x: 33, y: 9999}
+    weight: 10
+  - weatherEffect: {fileID: 2751619057974531277, guid: d6b5db07c469dfc4d8d23dd6d19bebdf, type: 3}
+    possibleDurationLengthRange: {x: 3, y: 11}
+    requiredTemperatureRange: {x: 70, y: 100}
+    weight: 2
+  canForageHere: 0
+  canMineHere: 0
+  canFishHere: 0
+  forageRegenerationMinutes: 0
+  forageRegenerationHours: 0
+  forageRegenerationDays: 1
+  foragingLoot: {fileID: 0}
+  miningLoot: {fileID: 0}
+  fishingLoot: {fileID: 0}
+  foragingPlants: []
+  miningRocks: []
+  foragingBackground: {fileID: 0}
+  miningBackground: {fileID: 0}
+  fishingBackground: {fileID: 0}

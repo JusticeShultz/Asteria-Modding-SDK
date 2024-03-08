@@ -1,0 +1,250 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58e381003a09d304f941e273cbecc7ce, type: 3}
+  m_Name: ToxicArtillery
+  m_EditorClassIdentifier: 
+  nameOfSkill: <wiggle><color=#6d24bf>Toxic Artillery</color><wiggle>
+  flavorText: Channel 85% of your max mana ([MaxMana,0.5]), <swing>launching a powerful
+    vile liquid of poison</swing> dealing poison magic damage ([MagicDamage,1]) with
+    a 65% chance to apply poisoned for 15 seconds.
+  skillImage: {fileID: -1096209207104008147, guid: c2fbda71de30a1c409e29b7492210ab4, type: 3}
+  isMantra: 0
+  resourceCost: 1
+  aoeSize: 1
+  cooldownLength: 10
+  channelLength: 3
+  windupLength: 3
+  amountOfSkillChecks: 5
+  accuracy: 49
+  element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+  usageTags:
+  - usageTag:
+      usageType: 4
+      applyAs: 2
+      stringValue: 
+      intValue: 0
+      floatValue: 1
+      secondaryFloatValue: 1
+      boolValue: 0
+      statusEffect: {fileID: 0}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+        generatedModifiedStats: []
+        setGeneratedModifiedStats: []
+        isBeingSold: 0
+        sellingRequirements:
+          requiredStoryFlags: []
+          cannotHaveStoryFlags: []
+          requiredLanguages: []
+          requiredSkills: []
+          requiredItems: []
+          completedQuests: []
+          weatherRequired: None
+          timeRange: {x: 0, y: 24}
+          temperatureRange: {x: -9999, y: 9999}
+          dayRange: {x: -9999, y: 9999}
+          monthRange: {x: -9999, y: 9999}
+          yearRange: {x: -999999, y: 999999}
+          statRequirements: []
+          requiredBackgroundImage: []
+          requiredLocation: {fileID: 0}
+          requiredTab: 0
+          requiredLevel: 0
+      location: {fileID: 0}
+      element: {fileID: 0}
+      playerClass: {fileID: 0}
+      monsterTemplate: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+      usesStatScaling: 0
+      statScalings: []
+    multiplyStrength: 85
+    tagHasRequirementsToExecute: 0
+    usageChance: 100
+    requirementForTag:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+    targetType: 1
+  - usageTag:
+      usageType: 42
+      applyAs: 0
+      stringValue: 
+      intValue: 0
+      floatValue: 0.1
+      secondaryFloatValue: 15
+      boolValue: 0
+      statusEffect: {fileID: 11400000, guid: 1ab2680c7692f8949b08614f6ff6ae50, type: 2}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+        generatedModifiedStats: []
+        setGeneratedModifiedStats: []
+        isBeingSold: 0
+        sellingRequirements:
+          requiredStoryFlags: []
+          cannotHaveStoryFlags: []
+          requiredLanguages: []
+          requiredSkills: []
+          requiredItems: []
+          completedQuests: []
+          weatherRequired: None
+          timeRange: {x: 0, y: 24}
+          temperatureRange: {x: -9999, y: 9999}
+          dayRange: {x: -9999, y: 9999}
+          monthRange: {x: -9999, y: 9999}
+          yearRange: {x: -999999, y: 999999}
+          statRequirements: []
+          requiredBackgroundImage: []
+          requiredLocation: {fileID: 0}
+          requiredTab: 0
+          requiredLevel: 0
+      location: {fileID: 0}
+      element: {fileID: 0}
+      playerClass: {fileID: 0}
+      monsterTemplate: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+      usesStatScaling: 0
+      statScalings: []
+    multiplyStrength: 1
+    tagHasRequirementsToExecute: 0
+    usageChance: 100
+    requirementForTag:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+    targetType: 0
+  - usageTag:
+      usageType: 1
+      applyAs: 0
+      stringValue: 
+      intValue: 0
+      floatValue: 1
+      secondaryFloatValue: 0
+      boolValue: 0
+      statusEffect: {fileID: 0}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+        generatedModifiedStats: []
+        setGeneratedModifiedStats: []
+        isBeingSold: 0
+        sellingRequirements:
+          requiredStoryFlags: []
+          cannotHaveStoryFlags: []
+          requiredLanguages: []
+          requiredSkills: []
+          requiredItems: []
+          completedQuests: []
+          weatherRequired: None
+          timeRange: {x: 0, y: 24}
+          temperatureRange: {x: -9999, y: 9999}
+          dayRange: {x: -9999, y: 9999}
+          monthRange: {x: -9999, y: 9999}
+          yearRange: {x: -999999, y: 999999}
+          statRequirements: []
+          requiredBackgroundImage: []
+          requiredLocation: {fileID: 0}
+          requiredTab: 0
+          requiredLevel: 0
+      location: {fileID: 0}
+      element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+      playerClass: {fileID: 0}
+      monsterTemplate: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+      usesStatScaling: 1
+      statScalings:
+      - statToScaleBy: 3
+        scaleRatio: 1.15
+        statScalingType: 0
+        appliedOperation: 0
+        inputOperation: 2
+    multiplyStrength: 1
+    tagHasRequirementsToExecute: 0
+    usageChance: 100
+    requirementForTag:
+      requiredStoryFlags: []
+      cannotHaveStoryFlags: []
+      requiredLanguages: []
+      requiredSkills: []
+      requiredItems: []
+      completedQuests: []
+      weatherRequired: None
+      timeRange: {x: 0, y: 24}
+      temperatureRange: {x: -9999, y: 9999}
+      dayRange: {x: -9999, y: 9999}
+      monthRange: {x: -9999, y: 9999}
+      yearRange: {x: -999999, y: 999999}
+      statRequirements: []
+      requiredBackgroundImage: []
+      requiredLocation: {fileID: 0}
+      requiredTab: 0
+      requiredLevel: 0
+    targetType: 0
+  requiredClass: {fileID: 0}
+  languageRequired: {fileID: 0}
+  DamageClassification: 1
+  usability: 0
+  AISkillUsage: 0
+  startOnCooldown: 0

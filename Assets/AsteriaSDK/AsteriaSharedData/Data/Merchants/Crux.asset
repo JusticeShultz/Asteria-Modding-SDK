@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5120a9deeeda67c4a9e2ef43c6563e5f, type: 3}
+  m_Name: Crux
+  m_EditorClassIdentifier: 
+  shopKeeperName: Crux, The General Merchant
+  shopItems:
+  - itemTemplate: {fileID: 11400000, guid: a6081a22436b96a4da2c409dd532fe51, type: 2}
+    level: 1
+    rarityModValue: 1
+    currentDurability: 1
+    itemRarity: 2
+    stackCount: 5
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 7ad744ef8408fdb46aeb93503688cff5, type: 2}
+    level: 1
+    rarityModValue: 1
+    currentDurability: 1
+    itemRarity: 0
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 0f3d736855135b048849b421c38c5cda, type: 2}
+    level: 1
+    rarityModValue: 1
+    currentDurability: 1
+    itemRarity: 0
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 9877527cf44349f46ac5114e9e70cec1, type: 2}
+    level: 1
+    rarityModValue: 1
+    currentDurability: 1
+    itemRarity: 0
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 4ac6943df51367345a795d9afd811396, type: 2}
+    level: 1
+    rarityModValue: 0
+    currentDurability: 0
+    itemRarity: 0
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 04a34801203c16b439fb7a2204f754c3, type: 2}
+    level: 1
+    rarityModValue: 0
+    currentDurability: 0
+    itemRarity: 2
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  - itemTemplate: {fileID: 11400000, guid: 7c723a0834f22204baeb405313a2f91a, type: 2}
+    level: 0
+    rarityModValue: 0
+    currentDurability: 0
+    itemRarity: 6
+    stackCount: 1
+    stackID: 
+    generatedModifiedStats: []
+    isBeingSold: 1
+  merchantSellRate: 0.6
+  merchantBuyRate: 1.5
+  openingStatements:
+  - Greetings traveler.
+  - Greetings adventurer.
+  purchasingStatements: []
+  exitingStatements: []

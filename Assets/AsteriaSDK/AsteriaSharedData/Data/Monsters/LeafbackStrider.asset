@@ -1,0 +1,86 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: LeafbackStrider
+  m_EditorClassIdentifier: 
+  nameOfMonster: Leafback Strider
+  displayName: <bounce><color=#0ead63>Leafback Strider</color></bounce>
+  flavorText: The Leafback Strider gets its name for the leafs that organically grow
+    on it. The leaves that grow on them are said to be very regenerative, but causes
+    them great pain to be picked. Hunters often sell their leaves and keep the meat
+    due to their meat not being worth all that much.
+  icons:
+  - {fileID: 21300000, guid: bfc2baf3207c4fc4aa064dea7ca5621b, type: 3}
+  addedLevelDifficulty: 0.8
+  innateIncreasedLevel: 0
+  maxHealth: 5
+  minHealth: 4
+  baseMana: 1
+  baseStamina: 3
+  element: {fileID: 11400000, guid: f8600b7b31ffd434aa4b8be851151531, type: 2}
+  canDropLoot: 1
+  canDropRareLoot: 1
+  canDropCurrency: 1
+  canDropXP: 1
+  isBossMonster: 0
+  isWorldBoss: 0
+  isFloorGuardian: 0
+  isNamedMonster: 0
+  dieOutOfCombat: 0
+  lootPool: {fileID: 11400000, guid: b9cc27f7ef8e5ec43840725d633f8c77, type: 2}
+  monsterRarity: 0
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 1
+  constitution: 0
+  dexterity: 1
+  intelligence: 0
+  awareness: 0
+  stealth: 0
+  arcana: 1
+  luck: 1
+  initiative: 1
+  muscle: 0
+  brawn: 0
+  minDelayBetweenActions: 0.75
+  maxDelayBetweenActions: 3
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 1.65
+  innateCritChance: 2
+  startingStatusEffects: []
+  killTags: []
+  restSkill: {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateSkills:
+  - {fileID: 11400000, guid: 9d15318bebd618546860c31d27f0f1c4, type: 2}
+  - {fileID: 11400000, guid: 07f7adb0767344d4f9a472a5080c0745, type: 2}
+  - {fileID: 11400000, guid: 970f53eb39d30b043aa9b4a7e54d6306, type: 2}
+  - {fileID: 11400000, guid: cd671878156317747a4ffe1e4f7fc55d, type: 2}
+  - {fileID: 11400000, guid: 18aea1ad1be0e7149bb12ef17cdce0ad, type: 2}
+  - {fileID: 11400000, guid: 9ce90f48edb71a4489fcf8b2ec2301e3, type: 2}
+  - {fileID: 11400000, guid: d98b283ffbff4ad4e80ae32591f28d20, type: 2}
+  - {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateLanguages:
+  - {fileID: 11400000, guid: 348a7df8080aed243b1a679f3bc6c94d, type: 2}
+  overrideAISkillUsageWeights: 1
+  MaxHealthWeights: 00000000020000000c000000030000000b0000000d0000000c000000040000000500000000000000000000000000000001000000010000000100000001000000060000000600000006000000060000000600000006000000
+  QuarterHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d00000004000000050000000600000007000000080000000900000000000000010000000100000006000000060000000600000006000000
+  HalfHealthWeights: 01000000010000000a000000010000000000000002000000020000000d000000040000000500000006000000070000000800000009000000000000000100000006000000060000000600000006000000
+  AboveHalfHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d000000040000000500000006000000070000000800000009000000000000000100000001000000010000000600000006000000
+  canObtainXP: 0
+  evolves: 0
+  evolutionLevel: 10
+  evolution: {fileID: 0}
+  evolvesToSameLevel: 0
+  afterEvolutionLevel: 5

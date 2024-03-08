@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4785e62f4416c924881ad9bf29991efc, type: 3}
+  m_Name: HardenedGel
+  m_EditorClassIdentifier: 
+  nameOfStatus: Hardened Gel
+  formattedNameOfStatus: <wiggle><color=#5eeb7f>Hardened Gel</color></wiggle>
+  flavorText: Grants [SES, 1] [Armor] & [SES, 1] [MagicResist].
+  cures: 
+  tickLifetimeInCombat: 1
+  tickLifetimeInWorld: 1
+  genericUsageTags: []
+  usageTagsWorld: []
+  usageTagsCombat: []
+  specialTag: []
+  onCureTag: []
+  onStatusBegin: []
+  onLifespanOver: []
+  hasLifespan: 1
+  lifespan: 1
+  displayImage: {fileID: -4692982767169261120, guid: 49f57800c82a73c4b8f7fef3cab0edeb, type: 3}
+  iconTint: {r: 1, g: 1, b: 1, a: 1}
+  preGeneratedModifiers: []
+  generatedModifiers:
+  - statToModify: 11
+    generatedValue: 1
+  - statToModify: 12
+    generatedValue: 1

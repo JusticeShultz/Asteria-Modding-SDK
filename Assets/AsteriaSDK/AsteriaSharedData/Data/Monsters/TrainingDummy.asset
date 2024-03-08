@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: TrainingDummy
+  m_EditorClassIdentifier: 
+  nameOfMonster: Target Dummy
+  displayName: <bounce>Target Dummy</bounce>
+  flavorText: It's just a target dummy, often used for sword training.
+  icons:
+  - {fileID: 21300000, guid: 7a8ded8e210a736428e3b1576714d454, type: 3}
+  addedLevelDifficulty: 1
+  maxHealth: 2
+  minHealth: 0.8
+  baseMana: 0
+  baseStamina: 0
+  canDropCurrency: 0
+  canDropLoot: 0
+  canDropRareLoot: 0
+  isBossMonster: 0
+  isFloorGuardian: 0
+  isWorldBoss: 0
+  isNamedMonster: 0
+  monsterRarity: 0
+  element: {fileID: 11400000, guid: 08310b1b84dad9340bd5fdf337dbbcc6, type: 2}
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 0
+  constitution: 0
+  dexterity: 0
+  intelligence: 0
+  awareness: 0
+  stealth: 0
+  arcana: 0
+  luck: 0
+  initiative: 0
+  muscle: 0
+  brawn: 0
+  minDelayBetweenActions: 1
+  maxDelayBetweenActions: 2
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 1.25
+  innateCritChance: 3
+  killTags: []
+  restSkill: {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateSkills:
+  - {fileID: 11400000, guid: 6f4f07d4944cbe74b86f7bcb82c6237f, type: 2}
+  innateLanguages: []
+  overrideAISkillUsageWeights: 1
+  MaxHealthWeights: 02000000
+  QuarterHealthWeights: 02000000
+  HalfHealthWeights: 02000000
+  AboveHalfHealthWeights: 02000000

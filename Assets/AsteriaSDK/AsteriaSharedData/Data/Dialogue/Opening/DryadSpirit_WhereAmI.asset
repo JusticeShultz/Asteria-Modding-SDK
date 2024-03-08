@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: DryadSpirit_WhereAmI
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: Celestial Dryad Spirit
+    text: This is Dryads Rest...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 11400000, guid: 6e1211a3c40c65d41b39e21279ce06a0, type: 2}
+    learnLocationFromSwap: 1
+    onlyLearnWithNoSwap: 1
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: This place is where I and many other spirits call home...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: This place was crafted by the first Celestial Dryad, it's in the very center
+      of Mistyvale Woods and said to be the heart of the entire forest...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest:
+      questName: 
+      questExplanation: 
+      questTypeLogID: 
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: inquisite_dryadspirit_01
+    triggeredStoryEvent: 
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 11400000, guid: 449d41d7f7f6e4748a638eb75e01a0e3, type: 2}
+  transitionToAfterEnd: {fileID: 0}

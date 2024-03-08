@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 19a041dff4fa73d4dacba5f9e39373ca, type: 3}
+  m_Name: LesserXPPotion
+  m_EditorClassIdentifier: 
+  targetClasses: []
+  nameOfItem: Lesser XP Potion
+  flavorText: Upon drinking this disgusting concoction you will gain a slight amount
+    of experience.
+  itemImage: {fileID: 21300000, guid: 8268212d13b6a5b49ad124e26bcf597a, type: 3}
+  typeOfItem: 11
+  overrideTypeOfItemText: Drinkable
+  itemRarity: 5
+  uTagStats: []
+  onEquip: []
+  onConsume:
+  - usageTag:
+      usageType: 48
+      applyAs: 0
+      usageAllowed: 0
+      stringValue: 
+      intValue: 0
+      floatValue: 100
+      secondaryFloatValue: 0
+      boolValue: 0
+      spriteValue: {fileID: 0}
+      statusEffect: {fileID: 0}
+      skill: {fileID: 0}
+      language: {fileID: 0}
+      item:
+        itemTemplate: {fileID: 0}
+        level: 0
+        rarityModValue: 0
+        currentDurability: 0
+        itemRarity: 0
+        stackCount: 0
+        stackID: 
+      location: {fileID: 0}
+      element: {fileID: 0}
+      _customExecutionScript:
+        script: {fileID: 0}
+    multiplyStrength: 1
+    usageChance: 100
+    targetType: 1
+  onAttack: []
+  onPhysicalDamageTaken: []
+  onMagicDamageTaken: []
+  grantedSkills: []
+  effectsList:
+  - <bounce>+100 XP
+  languageRequired: {fileID: 0}
+  searchupTag: XPLesser
+  itemHandRequirement: 0
+  usesDurability: 0
+  durability: 1
+  itemCanStack: 1
+  itemWeight: 0.1
+  worth: 18
+  itemModifier: {fileID: 0}

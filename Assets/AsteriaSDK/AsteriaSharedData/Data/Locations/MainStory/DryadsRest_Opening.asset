@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6b6f5bb815f8448aa7686bafdb51f8, type: 3}
+  m_Name: DryadsRest_Opening
+  m_EditorClassIdentifier: 
+  locationName: Dryads Rest
+  flavorText: This shouldn't be in the dossier...
+  backgroundImage:
+  - {fileID: 21300000, guid: a5ee4ebd90a05184ca96de5e77b40e8b, type: 3}
+  localePopupMaterial: {fileID: 0}
+  recommendedLevel: 1
+  encounterLevelVariabilityMin: -1
+  encounterLevelVariabilityMax: 2
+  showLocaleSwapText: 0
+  travelable: []
+  possibleEncounters: []
+  possibleWeather:
+  - weatherEffect: {fileID: 2751619057974531277, guid: 86a19da72195e0a4d8ee71d03bfa1d2a, type: 3}
+    possibleDurationLengthRange: {x: 1, y: 8}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 999
+  generalClimateMin: 30
+  generalClimateAverage: 68
+  generalClimateMax: 95

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6b6f5bb815f8448aa7686bafdb51f8, type: 3}
+  m_Name: TestLocation
+  m_EditorClassIdentifier: 
+  locationName: Test Location
+  flavorText: Test Location
+  climateType: The Void
+  travelable: []
+  travelableIds:
+  - Dryads Rest
+  travelToInjectionIds:
+  - Dryads Rest
+  possibleEncounters: []
+  possibleEncountersByID:
+  - TestLocation_PoisonSlimeDuck_1
+  possibleEncountersByName: []
+  isTown: 0
+  showLocaleSwapText: 0
+  localePopupMaterial: {fileID: 0}
+  backgroundImage:
+  - {fileID: 774008112194408598, guid: 8d29dc99cc95e96408c25a33a92d0fa1, type: 3}
+  recommendedLevel: 3
+  encounterLevelVariabilityMin: -1
+  encounterLevelVariabilityMax: 1
+  generalClimateMin: 12
+  generalClimateAverage: 29
+  generalClimateMax: 32
+  possibleWeather:
+  - weatherEffectID: Weather_Foggy
+    possibleDurationLengthRange: {x: 3, y: 12}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 100
+  forageRegenerationMinutes: 0
+  forageRegenerationHours: 0
+  forageRegenerationDays: 25
+  foragingLootID: DryadsRest_Foraging
+  miningRegenerationMinutes: 0
+  miningRegenerationHours: 0
+  miningRegenerationDays: 25
+  miningLootID: DryadsRest_Mining
+  fishingRegenerationMinutes: 0
+  fishingRegenerationHours: 0
+  fishingRegenerationDays: 25
+  minFishingAttempts: 1
+  maxFishingAttempts: 4
+  fishingLootID: FreeApples

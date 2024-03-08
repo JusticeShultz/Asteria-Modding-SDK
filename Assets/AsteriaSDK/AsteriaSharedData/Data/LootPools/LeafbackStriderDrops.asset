@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67faa215626fc6b4398ab9aa2dc02d41, type: 3}
+  m_Name: LeafbackStriderDrops
+  m_EditorClassIdentifier: 
+  amountDroppedMin: 1
+  amountDroppedMax: 3
+  items:
+  - item: {fileID: 11400000, guid: 1f0397e002a7d7b4781ec6665ec91c7c, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 30
+  - item: {fileID: 11400000, guid: af29add8d986be3478c481bedea8426e, type: 2}
+    minPossible: 1
+    maxPossible: 2
+    dropWeight: 3
+  - item: {fileID: 11400000, guid: 05a376efe76cede42b464c1138a0a3c0, type: 2}
+    minPossible: 1
+    maxPossible: 3
+    dropWeight: 100
+  - item: {fileID: 11400000, guid: baa884299f21fbb408c77ce200e68f2a, type: 2}
+    minPossible: 1
+    maxPossible: 1
+    dropWeight: 10
+  guaranteedItems: []

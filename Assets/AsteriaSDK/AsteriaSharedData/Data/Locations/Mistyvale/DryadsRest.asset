@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6b6f5bb815f8448aa7686bafdb51f8, type: 3}
+  m_Name: DryadsRest
+  m_EditorClassIdentifier: 
+  locationName: Dryads Rest
+  flavorText: A fusion of ancient weathered stone formations and colossal wooden
+    tree structures. Old texts and legends describe the Dryads as having infused
+    the local flora with potent magic, giving the vegetation unparalleled growth
+    and regenerative properties. Access to this hidden enclave proves to be an elusive
+    pursuit to most due to the mists that surround it.
+  climateType: Humid
+  travelable:
+  - {fileID: 11400000, guid: 087e9e4b0cb26914ba6f3d6da99f36aa, type: 2}
+  travelableIds:
+  - Mistyvale Woods
+  travelToInjectionIds:
+  - Mistyvale Woods
+  possibleEncounters:
+  - {fileID: 11400000, guid: 1f673844cb6e0064f9628921939f73a4, type: 2}
+  - {fileID: 11400000, guid: 9c454909869bc3344962c30750b35860, type: 2}
+  - {fileID: 11400000, guid: 8a5d16bc1b52d4b4194a3eb36e2761ef, type: 2}
+  - {fileID: 11400000, guid: 5b1f4986d0761af44a0c9843b93a2851, type: 2}
+  - {fileID: 11400000, guid: ae4090317ba9fde4b852cf476a1a1f3f, type: 2}
+  - {fileID: 11400000, guid: dd4d1197ff885884381d8ad54e549e0e, type: 2}
+  - {fileID: 11400000, guid: 4b3c360f604d31b4e8a6ddb61a88a999, type: 2}
+  isTown: 0
+  showLocaleSwapText: 0
+  localePopupMaterial: {fileID: 0}
+  backgroundImage:
+  - {fileID: 21300000, guid: a5ee4ebd90a05184ca96de5e77b40e8b, type: 3}
+  - {fileID: 21300000, guid: f992b6ad27c0df640925c044f8039b97, type: 3}
+  - {fileID: 21300000, guid: cf706f5b43d0f464c8c0893ef4d73df9, type: 3}
+  - {fileID: 21300000, guid: c3e5930d2e5960a47b5906dfeb090722, type: 3}
+  - {fileID: 21300000, guid: cfac4bcd329499943b774146913f1dac, type: 3}
+  - {fileID: 21300000, guid: 64582ffa5c190e048ac0e8b83095599d, type: 3}
+  - {fileID: 21300000, guid: e1d4eb4aa20da8640837e2b7b1318926, type: 3}
+  - {fileID: 21300000, guid: 2f878e92216541f46865a92b6213f026, type: 3}
+  - {fileID: 21300000, guid: 857ff2d262353044bb55312fa2b0157a, type: 3}
+  - {fileID: 21300000, guid: d3f630cadf3833441b6eb2f3445a41f8, type: 3}
+  - {fileID: 21300000, guid: 5cd2a78eafa358f4abd3b08b298d8eaa, type: 3}
+  - {fileID: 21300000, guid: ca432f43b3ce7114ca7e950224ff15c6, type: 3}
+  - {fileID: 21300000, guid: e9ab2a7acd553c54c8022922b018cc5f, type: 3}
+  - {fileID: 21300000, guid: 754c037e779af94498ddf472655a14d9, type: 3}
+  - {fileID: 21300000, guid: 2846e3a04d4537a4fa61b88861cdde00, type: 3}
+  - {fileID: 21300000, guid: d763f081ed91272498ab17cb0260cb95, type: 3}
+  - {fileID: 21300000, guid: 184f85f4bc8c82e40909a25317feed43, type: 3}
+  - {fileID: 21300000, guid: 887f6dac59df2dd438c63b1dc470fe03, type: 3}
+  - {fileID: 21300000, guid: 73870cedd13c40b40971b1270c2c3395, type: 3}
+  - {fileID: 21300000, guid: 70b8c89ed2651fb4593e27093ec54136, type: 3}
+  - {fileID: 21300000, guid: edb3c6f4c6daebf40a31639b15ae2e16, type: 3}
+  - {fileID: 21300000, guid: 9dacf0ebb258c644f928962eae3d77cf, type: 3}
+  - {fileID: 21300000, guid: 3c97fabb174639b45958fbb02bdc4f16, type: 3}
+  - {fileID: 21300000, guid: f849e68c3070a2841aa49c87f91e9ea2, type: 3}
+  - {fileID: 21300000, guid: b3e2404c78fdedc47b76d367849cf1df, type: 3}
+  recommendedLevel: 2
+  encounterLevelVariabilityMin: -1
+  encounterLevelVariabilityMax: 0
+  generalClimateMin: 28
+  generalClimateAverage: 64
+  generalClimateMax: 90
+  possibleWeather:
+  - weatherEffect: {fileID: 2751619057974531277, guid: 86a19da72195e0a4d8ee71d03bfa1d2a, type: 3}
+    possibleDurationLengthRange: {x: 4, y: 8}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 100
+  - weatherEffect: {fileID: 2751619057974531277, guid: 74e64bd28ae5aff4c942294ece52a7e9, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 5}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 35
+  - weatherEffect: {fileID: 2751619057974531277, guid: 618a4dc8ec8b7da40bff555214734bcb, type: 3}
+    possibleDurationLengthRange: {x: 3, y: 6}
+    requiredTemperatureRange: {x: 70, y: 9999}
+    weight: 33
+  - weatherEffect: {fileID: 2751619057974531277, guid: 28f4a69dcc994734ea4f418f5990e0b2, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 22}
+    requiredTemperatureRange: {x: 33, y: 9999}
+    weight: 30
+  - weatherEffect: {fileID: 2751619057974531277, guid: 0c45f2470fe9a7b499b979bb8493db57, type: 3}
+    possibleDurationLengthRange: {x: 2, y: 14}
+    requiredTemperatureRange: {x: -9999, y: 32}
+    weight: 30
+  - weatherEffect: {fileID: 2751619057974531277, guid: 4db222f8b1e529f40933aaf7a0cf77ab, type: 3}
+    possibleDurationLengthRange: {x: 6, y: 34}
+    requiredTemperatureRange: {x: 33, y: 9999}
+    weight: 10
+  - weatherEffect: {fileID: 2751619057974531277, guid: d6b5db07c469dfc4d8d23dd6d19bebdf, type: 3}
+    possibleDurationLengthRange: {x: 3, y: 11}
+    requiredTemperatureRange: {x: 70, y: 100}
+    weight: 2
+  forageRegenerationMinutes: 0
+  forageRegenerationHours: 0
+  forageRegenerationDays: 20
+  foragingLoot: {fileID: 11400000, guid: 9aaf16c110ffbe648acf25367c848521, type: 2}
+  miningRegenerationMinutes: 0
+  miningRegenerationHours: 0
+  miningRegenerationDays: 20
+  miningLoot: {fileID: 11400000, guid: fabe4d9c053b07445ae1427b65f7408f, type: 2}
+  fishingRegenerationMinutes: 0
+  fishingRegenerationHours: 0
+  fishingRegenerationDays: 20
+  minFishingAttempts: 1
+  maxFishingAttempts: 4
+  fishingLoot: {fileID: 11400000, guid: 9aaf16c110ffbe648acf25367c848521, type: 2}

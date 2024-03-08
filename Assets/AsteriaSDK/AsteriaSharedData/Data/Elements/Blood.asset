@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eec9b04cb4e0cb444846acc32b60f43e, type: 3}
+  m_Name: Blood
+  m_EditorClassIdentifier: 
+  ElementName: Blood
+  associatedColor: {r: 0.735849, g: 0, b: 0, a: 1}
+  resistances:
+  - {fileID: 11400000, guid: ffb3e5d003d4a8d40b90aa861bcc9abe, type: 2}
+  weaknesses:
+  - {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+  associatedEnemyCard_Normal: {fileID: 0}
+  associatedEnemyCard_Elite: {fileID: 0}
+  associatedEnemyCard_Boss: {fileID: 0}

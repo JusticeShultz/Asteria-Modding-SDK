@@ -1,0 +1,212 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a247fdf743376f94e8754da7415c13b0, type: 3}
+  m_Name: OpeningScene_02
+  m_EditorClassIdentifier: 
+  orderedDialogue:
+  - name: 
+    text: <color=#f0ba69>You awaken from what feels like an eternal slumber...</color>
+      <wiggle a=3><color=#75b1ff>Your memories fresh, yet filled with the knowledge
+      of everything that surrounds you...</color></wiggle>
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: <shake a=3><color=#ff2e12>A sudden, excruciating pain surges through your
+      head</color></shake>, making your entire body <wave a=4><color=#006fff>shiver
+      uncontrollably...</wave></color>
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: <shake a=3><color=#ff2e12>And then, just as suddenly as it began </color></shake>
+      ... it stops...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: The pain and shivers vanish in an instant, leaving you lying on the cold,
+      mossy ground...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Slowly, you sit up, propping yourself up with your arms, disoriented by
+      your surroundings. Before you can make sense of it all, a radiant orb approaches
+      you swiftly.
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: ab81c7c88ded68d4fa586059a0cdb819, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: 
+    text: Ah! You're finally awake!
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 0
+    branchObjects: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 1
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  - name: Celestial Dryad Spirit
+    text: I am the Celestial Dryad spirit, guardian of this ancient woodland. I'm
+      sure you have countless questions...
+    nameColor: {r: 1, g: 1, b: 1, a: 1}
+    textColor: {r: 1, g: 1, b: 1, a: 1}
+    characterIcon: {fileID: 21300000, guid: df6f0e4d1ef983c41aaf0d89566ee8ae, type: 3}
+    dialogueType: 1
+    branchObjects:
+    - dialogueOptionText: Where am I?
+      switchToDialogue: {fileID: 11400000, guid: 94134eebbba13884e8142cedf38053b1, type: 2}
+      setsDialogueBackWhenComplete: 1
+      interactionRequirements:
+        requiredStoryFlags: []
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+    - dialogueOptionText: Who am I?
+      switchToDialogue: {fileID: 11400000, guid: bdb636fa83ffe2c44a54720a6843b184, type: 2}
+      setsDialogueBackWhenComplete: 1
+      interactionRequirements:
+        requiredStoryFlags: []
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+    - dialogueOptionText: Who are you?
+      switchToDialogue: {fileID: 11400000, guid: c81209c637867824abb604da0e1fa145, type: 2}
+      setsDialogueBackWhenComplete: 1
+      interactionRequirements:
+        requiredStoryFlags: []
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+    - dialogueOptionText: Tell me more about this forest. (Continues the story)
+      switchToDialogue: {fileID: 11400000, guid: 0819d9092bdff924a878cba5325bf047, type: 2}
+      setsDialogueBackWhenComplete: 0
+      interactionRequirements:
+        requiredStoryFlags:
+        - inquisite_dryadspirit_01
+        - inquisite_dryadspirit_02
+        - inquisite_dryadspirit_03
+        requiredLanguages: []
+        requiredSkills: []
+        requiredItems: []
+        completedQuests: []
+    rewardObject:
+      xp: 0
+      currency: 0
+      items: []
+      additiveLootTable: []
+    givenQuest: {fileID: 0}
+    swapToLocation: {fileID: 0}
+    learnLocationFromSwap: 0
+    onlyLearnWithNoSwap: 0
+    storyFlag: 
+    triggeredStoryEvent: None
+    transitionPortrait: 0
+    forcesConversationEnd: 0
+    hideDialogueForSeconds: 0
+  associatedLocalizationTable: {fileID: 11400000, guid: 449d41d7f7f6e4748a638eb75e01a0e3, type: 2}
+  transitionToAfterEnd: {fileID: 0}

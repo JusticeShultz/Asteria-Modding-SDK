@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e6b6f5bb815f8448aa7686bafdb51f8, type: 3}
+  m_Name: PlanetView_Asteria
+  m_EditorClassIdentifier: 
+  locationName: Asteria
+  flavorText: Asteria, viewed from space by a celestial.
+  travelable: []
+  possibleEncounters: []
+  isTown: 0
+  showLocaleSwapText: 0
+  localePopupMaterial: {fileID: 0}
+  backgroundImage:
+  - {fileID: -5297368899637825412, guid: ed8598f59c4a8f84f8ae4eed0a1b3d72, type: 3}
+  recommendedLevel: 1
+  encounterLevelVariabilityMin: -1
+  encounterLevelVariabilityMax: 2
+  generalClimateMin: 30
+  generalClimateAverage: 68
+  generalClimateMax: 95
+  possibleWeather:
+  - weatherEffect: {fileID: 2751619057974531277, guid: 86a19da72195e0a4d8ee71d03bfa1d2a, type: 3}
+    possibleDurationLengthRange: {x: 1, y: 8}
+    requiredTemperatureRange: {x: -9999, y: 9999}
+    weight: 999
+  canForageHere: 0
+  canMineHere: 0
+  canFishHere: 0
+  forageRegenerationMinutes: 0
+  forageRegenerationHours: 0
+  forageRegenerationDays: 1
+  foragingLoot: {fileID: 0}
+  miningLoot: {fileID: 0}
+  fishingLoot: {fileID: 0}
+  foragingPlants: []
+  miningRocks: []
+  foragingBackground: {fileID: 0}
+  miningBackground: {fileID: 0}
+  fishingBackground: {fileID: 0}
