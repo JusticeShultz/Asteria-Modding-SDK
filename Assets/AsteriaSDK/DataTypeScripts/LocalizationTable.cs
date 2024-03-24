@@ -2,24 +2,48 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System;
+using SimpleJSON;
 using UnityEngine.Networking;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Sirenix.OdinInspector;
 
+[HideMonoScript]
 [CreateAssetMenu(fileName = "LocalizationTable", menuName = "Asteria/Localization Table", order = 1)]
 public class LocalizationTable : ScriptableObject
 {
     public List<LocalizedString> localizedStrings = new List<LocalizedString>();
 
+    //Works as the translator and finds the english version and then sends back the translated version.
     public string GetLocalizedStringFromText(string language, string toTranslate, bool fromEnglishSpelling = true)
     {
-        return "";
+        foreach(LocalizedString str in localizedStrings)
+        {
+            //English must be the first localized string or else the translation will not be found.
+            //This is a performance decision. It's not worth bogging the CPU down with the unecessary computation to find which slot English is in.
+            if(str.localizedStrings.Count > 0 && str.localizedStrings[0].text == toTranslate)
+            {
+                foreach(LocalizedString.LocalizedStringObject lstrObj in str.localizedStrings)
+                {
+                    if (fromEnglishSpelling)
+                    {
+                        if (lstrObj.languageInEnglish == language)
+                            return lstrObj.text;
+                    }
+                    else if (lstrObj.language == language)
+                        return lstrObj.text;
+                }
+            }
+        }
+
+        //For now if translation cannot be found return the original english.
+        return toTranslate; //"No localization for this text in this language...";
     }
 
     [Button("Translate All For Me...")]
     public void AutoTranslate()
     {
+        //AutoTranslate
         foreach(LocalizedString localizedString in localizedStrings)
         {
             if (!localizedString.translated)
@@ -81,8 +105,8 @@ public class LocalizationTable : ScriptableObject
                     response.EnsureSuccessStatusCode();
 
                     string jsonResult = await response.Content.ReadAsStringAsync();
-                    //var parsedTexts = jsonResult; //JSONNode.Parse(jsonResult); - NEED TO FIND A WAY TO DISTRIBUTE JSON, maybe add to modding install reqs later??
-                    string translatedText = jsonResult; //parsedTexts[0][0][0];
+                    var parsedTexts = JSONNode.Parse(jsonResult);
+                    string translatedText = parsedTexts[0][0][0];
                     Debug.Log("Translated " + sourceText + " to " + translatedText);
 
                     if (translatedText == "" || translatedText == string.Empty)

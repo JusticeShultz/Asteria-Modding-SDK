@@ -6,6 +6,7 @@ using UnityEngine;
 [Serializable] public class DroppableItem
 {
     public Item item;
+    public string itemId;
 
     [Tooltip("The min amount that may be dropped.")]
     public int minPossible = 1;
@@ -19,13 +20,9 @@ using UnityEngine;
     [Sirenix.OdinInspector.ShowIf("@usesInteractionRequirements == true")]
     [Tooltip("The requirements for the item to be dropped.")]
     public InteractionRequirement interactionRequirements = new InteractionRequirement();
-
-    public int CalculateDrops()
-    {
-        return 1;
-    }
 }
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "DefaultLootPool", menuName = "Asteria/Loot Pool", order = 15)]
 public class LootPool : ScriptableObject
 {
@@ -36,9 +33,4 @@ public class LootPool : ScriptableObject
     public List<DroppableItem> items = new List<DroppableItem>();
     [Tooltip("Used for quests & stuff, rewards are guaranteed.")]
     public List<DroppableItem> guaranteedItems = new List<DroppableItem>();
-
-    public int CalculateDropCount()
-    {
-        return 1;
-    }
 }

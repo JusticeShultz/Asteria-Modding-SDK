@@ -49,18 +49,22 @@ public enum AIHelper
     ApplyBuffAlly //Attempt to apply a buff to self. Debuffs are specified in the tag on the skill.
 }
 
+[HideMonoScript]
 [CreateAssetMenu(fileName = "DefaultSkill", menuName = "Asteria/Skill", order = 0)]
 public class Skill : ScriptableObject
 {
     [TabGroup("Basic Data")] [Tooltip("The name of the skill.")] public string nameOfSkill = "Default Skill";
     [TabGroup("Basic Data")] [TextArea] [Tooltip("Text to describe the skill in greater detail.")] public string flavorText = "This skill does absolutely nothing...";
-    [Required] [TabGroup("Basic Data")] [Tooltip("What the skill looks like. Leave empty for a default image.")] public Sprite skillImage = null;
+    [TabGroup("Basic Data")] [Tooltip("What the skill looks like. Leave empty for a default image.")] public Sprite skillImage = null;
+    [TabGroup("Basic Data")] [Tooltip("What the skill looks like. Leave empty for a default image.")] public string skillImageId = "";
+    [TabGroup("Basic Data")] public bool isMantra = false;
     [TabGroup("Balance Data")] [Tooltip("This is a multiplier used with UsageTags, setting to 2 for example will double the resource cost to cast.")] public int resourceCost = 1;
     [TabGroup("Balance Data")] [Tooltip("The AoE size. Leave as 1 if it only hits 1 target. 2 for enemy to the left or right, 3 if it hits both the left and right, etc.")] public int aoeSize = 1;
     [TabGroup("Balance Data")] [Tooltip("Determines attack speed/cooldown speed of the skill/spell. Will be reduced based on ability type.")] public float cooldownLength = 3.5f;
     [TabGroup("Balance Data")] [Tooltip("Determines how long the skill takes to channel.")] public float channelLength = 0.25f;
     [TabGroup("Balance Data")] [Tooltip("Determines how long the skill takes to channel.")] public float windupLength = 0.25f;
-    [TabGroup("Balance Data")] [Tooltip("Determines the percent chance the skill actually activates.")] public float accuracy = 100f;
+    [TabGroup("Balance Data")] [Tooltip("Determines the amount of skill checks that are made.")] public int amountOfSkillChecks = 3;
+    [TabGroup("Balance Data")] [Tooltip("Determines the percent chance each skill check is successful.")] public float accuracy = 100f;
     [Required] [TabGroup("Balance Data")] [Tooltip("Used to classify what element the skill uses, at some point it might change skill borders.")] public MagicElement element = null;
     [TabGroup("Usage Tags")] [Tooltip("Describes to the system how this skill behaves.")] public List<SerializedUsageTag> usageTags = new List<SerializedUsageTag>();
     [TabGroup("Balance Data")] [Tooltip("The class this skill is for, leave blank for all.")] public Class requiredClass = null;
@@ -69,9 +73,4 @@ public class Skill : ScriptableObject
     [TabGroup("Balance Data")] [Tooltip("What this skill can be used on.")] public UsageAllowed usability = UsageAllowed.All;
     [TabGroup("Balance Data")] [Tooltip("Determines how this spell will be interpreted by an AI. This could be a summon, enemy, companion, etc.")] public AIHelper AISkillUsage;
     [TabGroup("Balance Data")] public bool startOnCooldown = false;
-
-    public float GetCombinedFloat(UsageType type, TargetType targetType, UnitStats self)
-    {
-        return 0f;
-    }
 }

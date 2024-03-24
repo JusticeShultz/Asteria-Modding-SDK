@@ -2,12 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "LocalizationString", menuName = "Asteria/Localization String", order = 1)]
 public class LocalizationString : ScriptableObject
 {
     public LocalizedString localizedString;
 }
 
+//This could probably be a dictionary, but for the sake of making working in the editor easier I am opting for this solution in order to
+//take advantage of the TextArea attribute which gives space to write strings, which makes life a lot easier.
 [System.Serializable] public class LocalizedString
 {
     [System.Serializable]
@@ -50,6 +53,15 @@ public class LocalizationString : ScriptableObject
                 return stringObj.text;
 
         return "No localization for this text in this language...";
+    }
+
+    public bool ContainsText(string txt)
+    {
+        foreach (LocalizedStringObject stringObj in localizedStrings)
+            if (stringObj.text == txt)
+                return true;
+
+        return false;
     }
 
     public string GetTextOfLanguage_FromEnglishSpelledLanguage(string engLanguage)
