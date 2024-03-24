@@ -27,6 +27,7 @@ public enum TypeOfStatus
     PermanentBoth,
 }
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "DefaultStatusEffect", menuName = "Asteria/Status Effect", order = 5)]
 public class StatusEffect : ScriptableObject
 {
@@ -66,17 +67,7 @@ public class StatusEffect : ScriptableObject
     public string displayImageId = "";
 
     public Color iconTint;
-
+    
     public List<PreGeneratedModifiedStat> preGeneratedModifiers = new List<PreGeneratedModifiedStat>();
     public List<GeneratedModifiedStat> generatedModifiers = new List<GeneratedModifiedStat>();
-
-    public string GetParsedText()
-    {
-        return formattedNameOfStatus + " - " + flavorText;
-    }
-
-    public string GetNonParsedText()
-    {
-        return nameOfStatus;
-    }
 }

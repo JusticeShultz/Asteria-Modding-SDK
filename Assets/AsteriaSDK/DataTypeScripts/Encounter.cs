@@ -4,13 +4,18 @@ using UnityEngine;
 using Sirenix.OdinInspector;
 using System.Linq;
 
+//Condensed because dialogue, combat and events have been changed to be much more modular and handle most of the heavy lifting.
 public enum EncounterType
 {
     Combat,
     Dialogue,
     Event
+    //GiveQuest,
+    //FindItem,
+    //FindLocation
 }
 
+//This is used to reference any valid stat. Not every stat works for every scenario (e.g. missing stats in the modifier system), but for the most part it should work modularly between systems which need to reference stats.
 public enum InteractionStat
 {
     Strength, Constitution, Dexterity, Intelligence, Awareness, Stealth, Arcana, Luck, Initiative, Muscle, Brawn, Armor, MagicResist, CritDamageMultiplier, CurrentSkillPointsAvailable, Level,
@@ -19,6 +24,7 @@ public enum InteractionStat
     MaxHealthRegeneration, FlatHealthRegeneration, MaxStaminaRegeneration, FlatStaminaRegeneration, MaxManaRegeneration, FlatManaRegeneration
 }
 
+//This is used to determine how to compare a stat value.
 public enum Comparator
 {
     IsGreaterThanOrEqualTo, IsGreaterThan, IsLessThanOrEqualTo, IsLessThan, IsEqualTo
@@ -29,6 +35,7 @@ public enum TabType
     None, Combat, Exploration, Camp, Inventory, Merchant, Dialogue
 }
 
+//This is used to store the 3 data objects required to check a stat.
 [System.Serializable]
 public class StatRequirement
 {
@@ -62,44 +69,22 @@ public class InteractionRequirement
     public string requiredLocationID = "";
     public TabType requiredTab = TabType.None;
     public int requiredLevel = 0;
-
-    public bool AllRequirementsMet()
-    {
-        return false;
-    }
-
-    public bool StatRequirementsMet(UnitStats stats)
-    {
-        return false;
-    }
-
-    public bool StatRequirementMet(StatRequirement statRequirement, UnitStats stats)
-    {
-        return false;
-    }
-
-    public int AllRequirementsNotMet()
-    {
-        return 0;
-    }
-
-    public int TotalRequirements()
-    {
-        return 0;
-    }
 }
 
+[HideMonoScript]
 [CreateAssetMenu(fileName = "New Encounter", menuName = "Asteria/Encounter", order = 11)]
 public class Encounter : ScriptableObject
 {
-    [TabGroup("Data")] public string encounterName;
+    //Something like mistyvalewoods_skeletons_4 would be optimal so we know that in Mistyvale woods we are fighting 4 skeletons.
+    [TabGroup("Data")] public string encounterName; //Used as an ID for lookups as well as a story flag. Spaces are allowed but not recommended.
 
     [TabGroup("Time")] public bool encounterPassesTime = true;
     [TabGroup("Time")] public int minutesPassed = 0;
     [TabGroup("Time")] public int hoursPassed = 1;
 
-    [TabGroup("Data")] public List<EncounterType> encounterTypes;
-
+    //Although this is a list so you can add multiple different types, I highly recommend sticking to 1. The dialogue system can do just about anything.
+    [TabGroup("Data")] public List<EncounterType> encounterTypes; //Determines how the encounters function and what systems it runs.
+    
     [TabGroup("Data")] public float encounterWeight = 10f;
 
     [TabGroup("Requirements")] public InteractionRequirement interactionRequirements;
@@ -108,11 +93,11 @@ public class Encounter : ScriptableObject
     [TabGroup("Backgrounds")] public bool rerollCurrentBackground = true;
     [TabGroup("Backgrounds")] public List<Sprite> overrideBackground = new List<Sprite>();
 
-    [TabGroup("Data")] public bool oneTimeEncounterStoryFlag = false;
+    [TabGroup("Data")] public bool oneTimeEncounterStoryFlag = false; //If this is a one time encounter then flag this true and a story flag with the encounter name will be set.
     [TabGroup("Data")] public string triggeredEvent = "None";
     [TabGroup("Data")] public Dialogue dialogueStarter;
     [TabGroup("Data")] public string dialogueStartedID;
-    [TabGroup("Data")] public List<UsageTag> usageTags = new List<UsageTag>();
+    [TabGroup("Data")] public List<UsageTag> usageTags = new List<UsageTag>(); //Makes use of the usage tag system to allow more control to designers for encounters.
     [TabGroup("Data")] public List<Monster> encounteredMonsters = new List<Monster>();
     [TabGroup("Data")] public List<string> encounteredMonstersID = new List<string>();
     [TabGroup("Data")] public List<string> storyFlagsAdded = new List<string>();

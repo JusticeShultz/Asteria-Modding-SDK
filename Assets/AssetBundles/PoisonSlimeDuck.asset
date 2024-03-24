@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9d980b32cb847fe478152b87ff301ad8, type: 3}
+  m_Name: PoisonSlimeDuck
+  m_EditorClassIdentifier: 
+  nameOfMonster: Poison Slime Duck
+  displayName: <bounce><color=#63ff83>Poison Slime Duck</color></bounce>
+  flavorText: An absolute unit and menace to society. Prepare to die.
+  icons: []
+  iconIds:
+  - DuckMod_LeftDuck
+  - DuckMod_RightDuck
+  addedLevelDifficulty: 1
+  innateIncreasedLevel: 0
+  maxHealth: 5
+  minHealth: 4
+  baseMana: 3
+  baseStamina: 4
+  maxHealthPerLevel: 2
+  maxHealthPerStrength: 2
+  maxHealthPerConstitution: 3
+  maxManaPerLevel: 0.5
+  maxManaPerArcana: 1.25
+  maxManaPerIntelligence: 0.25
+  maxStaminaPerLevel: 0.5
+  maxStaminaPerStrength: 0.25
+  maxStaminaPerDexterity: 1.25
+  physicalDamageFromStrength: 0.5
+  physicalDamageFromDexterity: 0.15
+  magicDamageFromIntelligence: 0.5
+  magicDamageFromArcana: 0.15
+  baseHealthRegeneration_Flat: 0
+  baseHealthRegeneration_Max: 0
+  baseStaminaRegeneration_Flat: 0
+  baseStaminaRegeneration_Max: 0
+  baseManaRegeneration_Flat: 0
+  baseManaRegeneration_Max: 0
+  element: {fileID: 11400000, guid: 0f0e361ca557b024ead9bf6a229d5dca, type: 2}
+  elementId: Poison
+  canDropLoot: 1
+  canDropRareLoot: 1
+  canDropCurrency: 1
+  canDropXP: 1
+  isBossMonster: 0
+  isWorldBoss: 0
+  isFloorGuardian: 0
+  isNamedMonster: 0
+  dieOutOfCombat: 0
+  lootPool: {fileID: 0}
+  lootPoolID: PoisonSlimeDuckLoot
+  monsterRarity: 0
+  displayHealth: 1
+  displayStamina: 0
+  displayMana: 0
+  monsterClassification: 0
+  strength: 1
+  constitution: 0
+  dexterity: 1
+  intelligence: 1
+  awareness: 2
+  stealth: 0
+  arcana: 1
+  luck: 3
+  initiative: 1
+  muscle: 0
+  brawn: 1
+  minDelayBetweenActions: 2.5
+  maxDelayBetweenActions: 5
+  innatePhysicalArmor: 0
+  innateMagicalArmor: 0
+  critDamageMultiplier: 1.65
+  innateCritChance: 2
+  startingStatusEffects: []
+  killTags: []
+  innateSkills: []
+  innateSkillIds:
+  - Channel
+  - HeavySlash
+  - ToxicStab
+  - ToxicArtillery
+  - VileSpit
+  - Regenerate
+  - Volley
+  - Pounce
+  - Ram
+  - Blast
+  - Chomp
+  - Bite
+  innateLanguages: []
+  innateLanguageIds: []
+  overrideAISkillUsageWeights: 1
+  MaxHealthWeights: 00000000020000000c000000030000000b0000000d0000000c000000040000000500000000000000000000000000000001000000010000000100000001000000060000000600000006000000060000000600000006000000
+  QuarterHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d00000004000000050000000600000007000000080000000900000000000000010000000100000006000000060000000600000006000000
+  HalfHealthWeights: 01000000010000000a000000010000000000000002000000020000000d000000040000000500000006000000070000000800000009000000000000000100000006000000060000000600000006000000
+  AboveHalfHealthWeights: 01000000000000000a00000000000000000000000c0000000b0000000d000000040000000500000006000000070000000800000009000000000000000100000001000000010000000600000006000000
+  canObtainXP: 1
+  evolves: 0
+  evolutionLevel: 10
+  evolution: {fileID: 0}
+  evolutionId: 
+  evolvesToSameLevel: 0
+  afterEvolutionLevel: 5

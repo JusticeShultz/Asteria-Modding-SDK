@@ -8,14 +8,6 @@ public class LocationalWeather
 {
     public string weatherEffectID;
 
-    public GameObject weatherEffect
-    {
-        get
-        {
-            return null;
-        }
-    }
-
     public Vector2 possibleDurationLengthRange;
     public Vector2 requiredTemperatureRange;
     public float weight;
@@ -26,8 +18,8 @@ public class LocationalWeather
 public class Location : ScriptableObject
 {
     [TabGroup("Basic Data")] public string locationName = "New Location";
-    [TabGroup("Basic Data")][TextArea] public string flavorText = "Some information about this location, this goes into the dossier...";
-    [TabGroup("Basic Data")][TextArea] public string climateType = "Humid";
+    [TabGroup("Basic Data")] [TextArea] public string flavorText = "Some information about this location, this goes into the dossier...";
+    [TabGroup("Basic Data")] [TextArea] public string climateType = "Humid";
     [TabGroup("Basic Data")] public List<Location> travelable = new List<Location>();
     [TabGroup("Basic Data")] public List<string> travelableIds = new List<string>(); //Used for mod linking. Adds the location IDs to the travelable list from the loaded mods list.
     [TabGroup("Basic Data")] public List<string> travelToInjectionIds = new List<string>(); //Used for mod linking. Injects the location into the travelable list of the location ID'd here.
@@ -35,11 +27,12 @@ public class Location : ScriptableObject
     [TabGroup("Basic Data")] public List<string> possibleEncountersByID = new List<string>();
     [TabGroup("Basic Data")] public List<string> possibleEncountersByName = new List<string>();
     [TabGroup("Basic Data")] public bool isTown = false;
-
+    
     [TabGroup("Text Popup")] public bool showLocaleSwapText = true;
     [TabGroup("Text Popup")] public Material localePopupMaterial = null;
 
-    [TabGroup("Background")][Tooltip("The background used for the location")] public List<Sprite> backgroundImage = new List<Sprite>();
+    [TabGroup("Background")] [Tooltip("The background used for the location")] public List<Sprite> backgroundImage = new List<Sprite>();
+    [TabGroup("Background")] [Tooltip("The background used for the location")] public List<string> backgroundImageIds = new List<string>();
 
     [TabGroup("Level")] public int recommendedLevel = 5;
     [TabGroup("Level")] public int encounterLevelVariabilityMin = -1;

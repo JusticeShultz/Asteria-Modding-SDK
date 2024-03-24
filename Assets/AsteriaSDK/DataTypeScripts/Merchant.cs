@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "DefaultMerchant", menuName = "Asteria/Merchant", order = 10)]
 public class Merchant : ScriptableObject
 {
@@ -18,5 +19,9 @@ public class Merchant : ScriptableObject
     
     public void InitializeMerchant(int level)
     {
+        foreach(SerializedItem item in shopItems)
+        {
+            item.level = Mathf.Clamp(level + Random.Range(-8, 2), 1, 9999999);
+        }
     }
 }

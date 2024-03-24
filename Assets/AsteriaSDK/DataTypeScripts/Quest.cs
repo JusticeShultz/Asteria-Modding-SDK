@@ -20,6 +20,7 @@ public class MonsterBounty
     public int amountKilled = 0;
 }
 
+[HideMonoScript]
 [CreateAssetMenu(fileName = "New Quest", menuName = "Asteria/Quest", order = 10)]
 public class Quest : ScriptableObject
 {

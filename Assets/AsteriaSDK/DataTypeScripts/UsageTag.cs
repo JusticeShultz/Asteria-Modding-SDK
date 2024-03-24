@@ -2,7 +2,6 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Sirenix.OdinInspector;
-using System.Diagnostics;
 
 public enum UsageType
 {
@@ -73,7 +72,10 @@ public enum UsageType
     ModifyStunTime,
     ModifySilenceTime,
     GiveStoryFlag,
-    ModifySkillPoints
+    ModifySkillPoints,
+    LoadPrefab,
+    UnloadPrefab,
+    SetBackground
 }
 
 public enum ApplyType
@@ -99,6 +101,7 @@ public enum StatScalingType
     NoLevelScaling, LevelLinear, LevelExponential, LevelPercentage, LevelLogarithmic
 }
 
+//This class is purely for stat scalings. This allows fine tuned control over how stats should scale and how.
 [System.Serializable]
 public class StatScaling
 {
@@ -108,25 +111,23 @@ public class StatScaling
     [ShowIf("statScalingType", StatScalingType.NoLevelScaling)]
     public MathOperation appliedOperation;
     public MathOperation inputOperation;
-
-    public float GetScalingResult(float input, UnitStats unit, List<SerializedUsageTag> uTags)
-    {
-        return 0f;
-    }
-
-    public float GetScalingResult(float input, UnitStats unit)
-    {
-        return 0f;
-    }
 }
 
+//[CreateAssetMenu(fileName = "UsageTag", menuName = "Asteria/Usage Tag", order = 10)]
 [System.Serializable]
 public class UsageTag
 {
+    //Determines how this UsageTag will be used.
+    //Adding more functionality will require source code modding.
     public UsageType usageType;
     public ApplyType applyAs;
 
-    [ShowIf("@usageType == UsageType.ModifyName || usageType == UsageType.RemoveItemByNameAndAmount || usageType == UsageType.GiveStoryFlag")]
+    //Probably not needed, deprecating for now.
+    //Used for death tags and stuff like that.
+    //public UsageAllowed usageAllowed;
+
+    //Basic values
+    [ShowIf("@usageType == UsageType.ModifyName || usageType == UsageType.RemoveItemByNameAndAmount || usageType == UsageType.GiveStoryFlag || usageType == UsageType.LoadPrefab || usageType == UsageType.UnloadPrefab || usageType == UsageType.SetBackground")]
     [LabelText("$GetStringValueLabel")]
     public string stringValue = "";
 
@@ -157,7 +158,7 @@ public class UsageTag
         " || usageType == UsageType.ModifyLockdownTime || usageType == UsageType.ModifyStunTime || usageType == UsageType.ModifySilenceTime || usageType == UsageType.ModifySkillPoints")]
     [LabelText("$GetFloatValueLabel")]
     public float floatValue = 1f;
-
+    
     [ShowIf("@usageType == UsageType.GiveStatusEffect || usageType == UsageType.SummonCompanion || usageType == UsageType.DealPhysicalDamage || usageType == UsageType.DealTrueDamage || usageType == UsageType.DealMagicDamage || usageType == UsageType.DealFlatPhysicalDamage")]
     [LabelText("$GetSecondaryFloatValueLabel")]
     public float secondaryFloatValue = 1f;
@@ -166,8 +167,13 @@ public class UsageTag
     [LabelText("$GetBoolLabel")]
     public bool boolValue = false;
 
+    [ShowIf("@usageType == UsageType.LoadPrefab")]
+    [LabelText("Spawn Position Offset")]
+    public Vector3 vectorValue = Vector3.zero;
+
     private string GetStringValueLabel()
     {
+        // You can use any conditions to determine the label dynamically
         if (usageType == UsageType.ModifyName)
         {
             return "Name";
@@ -180,12 +186,22 @@ public class UsageTag
         {
             return "Story Flag";
         }
+        else if (usageType == UsageType.LoadPrefab || usageType == UsageType.UnloadPrefab)
+        {
+            return "Prefab ID";
+        }
+        else if (usageType == UsageType.SetBackground)
+        {
+            return "Background ID";
+        }
 
+        // Default label if no conditions match
         return "Error!";
     }
 
     private string GetBoolLabel()
     {
+        // You can use any conditions to determine the label dynamically
         if (usageType == UsageType.DealMagicDamage)
         {
             return "Damage Does Not Use Stat Scalings?";
@@ -195,11 +211,13 @@ public class UsageTag
             return "Damage Does Not Use Stat Scalings?";
         }
 
+        // Default label if no conditions match
         return "Error!";
     }
 
     private string GetSecondaryFloatValueLabel()
     {
+        // You can use any conditions to determine the label dynamically
         if (usageType == UsageType.GiveStatusEffect)
         {
             return "Status Effect Lifetime";
@@ -225,6 +243,7 @@ public class UsageTag
             return "Flat Damage Increase";
         }
 
+        // Default label if no conditions match
         return "Error!";
     }
 
@@ -240,6 +259,7 @@ public class UsageTag
 
     private string GetValueLabel(string input)
     {
+        // You can use any conditions to determine the label dynamically
         if (usageType == UsageType.ConsumeHealth || usageType == UsageType.ConsumeStamina || usageType == UsageType.ConsumeMana)
         {
             return "Consumption Amount(" + input + ")";
@@ -258,7 +278,7 @@ public class UsageTag
         }
         else if (usageType == UsageType.Execute)
         {
-            if (applyAs == ApplyType.Flat)
+            if(applyAs == ApplyType.Flat)
                 return "Execute if current health lower than:";
             return "Execute if this % or lower of current health:";
         }
@@ -275,38 +295,35 @@ public class UsageTag
             return "Amount to Remove";
         }
 
+        // Default label if no conditions match
         return "Modification Amount(" + input + ")";
     }
+
+    //Used for inflicting another usage tag from a usage tag.
+    //In most cases this is not necessary, but it is allowed.
+    //E.g. modify your blade to now deal a fire damage status effect on hit.
+    //public UsageTag newUsageTag;
+
+    //Used to set an image.
+    //public Sprite spriteValue = null;
+
+    //Used to add a status effect object.
 
     [ShowIf("@usageType == UsageType.GiveStatusEffect || usageType == UsageType.RemoveStatusEffect")]
     public StatusEffect statusEffect;
     [ShowIf("@usageType == UsageType.GiveStatusEffect || usageType == UsageType.RemoveStatusEffect")]
     public string statusEffectId;
 
-    public StatusEffect GetStatusEffect()
-    {
-        return null;
-    }
-
+    //Used to add a skill to an object.
     [ShowIf("@usageType == UsageType.AddSkill || usageType == UsageType.AddMantra")]
     public Skill skill;
     [ShowIf("@usageType == UsageType.AddSkill || usageType == UsageType.AddMantra")]
     public string skillId;
 
-    public Skill GetSkill()
-    {
-        return null;
-    }
-
     [ShowIf("@usageType == UsageType.AddLanguage || usageType == UsageType.RemoveLanguage")]
     public Language language;
     [ShowIf("@usageType == UsageType.AddLanguage || usageType == UsageType.RemoveLanguage")]
     public string languageId;
-
-    public Language GetLanguage()
-    {
-        return null;
-    }
 
     [ShowIf("usageType", UsageType.GiveItemWithAmount, true)]
     public SerializedItem item;
@@ -316,37 +333,17 @@ public class UsageTag
     [ShowIf("usageType", UsageType.ChangeLocation, true)]
     public string locationId;
 
-    public Location GetLocation()
-    {
-        return null;
-    }
-
     [ShowIf("@usageType == UsageType.ModifyElement || usageType == UsageType.DealMagicDamage")]
     public MagicElement element;
     [ShowIf("@usageType == UsageType.ModifyElement || usageType == UsageType.DealMagicDamage")]
     public string elementId;
 
-    public MagicElement GetElement()
-    {
-        return null;
-    }
-
     [ShowIf("usageType", UsageType.ModifyClass, true)] public Class playerClass;
     [ShowIf("usageType", UsageType.ModifyClass, true)] public string playerClassId;
 
-    public Class GetClass()
-    {
-        return null;
-    }
-
     [ShowIf("usageType", UsageType.SummonCompanion, true)] public Monster monsterTemplate;
     [ShowIf("usageType", UsageType.SummonCompanion, true)] public string monsterTemplateId;
-
-    public Monster GetMonsterTemplate()
-    {
-        return null;
-    }
-
+    
     [ShowIf("usageType", UsageType.CustomExecutionScript, true)]
     [SerializeField] private ExecutionScriptWrapper _customExecutionScript;
 
@@ -357,14 +354,9 @@ public class UsageTag
 
     [ShowIf("usesStatScaling")]
     public List<StatScaling> statScalings = new List<StatScaling>();
-
-    public void Execute(UnitStats caster, UnitStats target)
-    {
-        return;
-    }
 }
 
-[System.Serializable]
+[System.Serializable] 
 public class SerializedUsageTag
 {
     public UsageTag usageTag = null;
@@ -373,10 +365,10 @@ public class SerializedUsageTag
     public bool tagHasRequirementsToExecute = false;
     [ShowIf("tagHasRequirementsToExecute")] public float usageChance = 100; //This is a % based system, 100 means 100%, 50 means 50%.
     [ShowIf("tagHasRequirementsToExecute")] public InteractionRequirement requirementForTag = new InteractionRequirement();
-
+    
     public TargetType targetType;
 
-    public SerializedUsageTag() { }
+    public SerializedUsageTag() {}
     public SerializedUsageTag(UsageTag uTag, float strength = 1f) { usageTag = uTag; multiplyStrength = strength; }
     public SerializedUsageTag(UsageTag uTag, float strength = 1f, TargetType tType = TargetType.Self) { usageTag = uTag; multiplyStrength = strength; targetType = tType; }
 }

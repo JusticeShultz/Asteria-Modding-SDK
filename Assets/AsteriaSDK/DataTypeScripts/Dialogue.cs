@@ -55,6 +55,7 @@ public class FishingLootTableItem
 {
     public string dialogueOptionText;
     public Dialogue switchToDialogue;
+    public string switchToDialogueId;
     public bool setsDialogueBackWhenComplete = false;
     public InteractionRequirement interactionRequirements;
     public List<SerializedUsageTag> usageTagsOnSelect = new List<SerializedUsageTag>();
@@ -67,27 +68,41 @@ public class FishingLootTableItem
     [TabGroup("Style")] public Color nameColor = Color.white;
     [TabGroup("Style")] public Color textColor = Color.white;
     [TabGroup("Dialogue")] public Sprite characterIcon = null;
+    [TabGroup("Dialogue")] public string characterIconId = "";
+
     [TabGroup("Dialogue")] public DialogueType dialogueType = DialogueType.NormalChat;
     [TabGroup("Outcomes")] [ShowIf("@dialogueType == DialogueType.Branch")] public List<BranchObject> branchObjects = new List<BranchObject>();
     [TabGroup("Outcomes")] [ShowIf("@dialogueType == DialogueType.Reward")] public RewardObject rewardObject = new RewardObject();
+    [TabGroup("Outcomes")] [ShowIf("@dialogueType == DialogueType.Reward")] public string rewardObjectId;
     [TabGroup("Outcomes")] [ShowIf("@dialogueType == DialogueType.GiveQuest")] public Quest givenQuest = null;
+    [TabGroup("Outcomes")] [ShowIf("@dialogueType == DialogueType.GiveQuest")] public string givenQuestId;
     [TabGroup("Outcomes")] public Location swapToLocation = null;
+    [TabGroup("Outcomes")] public string swapToLocationId = "";
     [TabGroup("Outcomes")] public bool learnLocationFromSwap = false;
     [TabGroup("Outcomes")] public bool onlyLearnWithNoSwap = false;
     [TabGroup("Outcomes")] public string storyFlag = "None";
     [TabGroup("Outcomes")] public string triggeredStoryEvent = "None";
     [TabGroup("Outcomes")] public bool transitionPortrait = false;
     [TabGroup("Outcomes")] public bool forcesConversationEnd = false;
+    [TabGroup("Outcomes")] public List<SerializedUsageTag> triggeredUsageTags = new List<SerializedUsageTag>();
     [TabGroup("Style")] public float hideDialogueForSeconds = 0f;
     [TabGroup("Style")] public bool localizeName = true;
 }
 
+[HideMonoScript]
 [CreateAssetMenu(fileName = "New Dialogue", menuName = "Asteria/Dialogue", order = 10)]
 public class Dialogue : ScriptableObject
 {
     [TabGroup("Dialogue")] public List<DialogueObject> orderedDialogue = new List<DialogueObject>();
     [TabGroup("Dialogue")] public Dialogue transitionToAfterEnd;
+    [TabGroup("Dialogue")] public string transitionToAfterEndId;
     [TabGroup("Localization")] public LocalizationTable associatedLocalizationTable;
+    //[TabGroup("Localization")] public string associatedLocalizationTableId; Localization tables are not yet moddable. This will be added in a future update.
+
+    /*
+     * Checks the associated localization table for each dialogue object entry.
+     * If the characters name or dialogue text isn't in the entry, add it and then translate it.
+     */
     [TabGroup("Localization")]
     [Button("Auto Localize Dialogue + Auto Restranslate")]
     public void AutoTranslate_True()

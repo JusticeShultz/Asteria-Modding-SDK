@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "NewElement", menuName = "Asteria/Magical Element", order = 1)]
 public class MagicElement : ScriptableObject
 {
@@ -18,9 +19,14 @@ public class MagicElement : ScriptableObject
 
     public MagicElement()
     {
+
     }
 
     public MagicElement(string nm, Color clr, List<MagicElement> res, List<MagicElement> weak)
     {
+        ElementName = nm;
+        associatedColor = clr;
+        resistances = res;
+        weaknesses = weak;
     }
 }

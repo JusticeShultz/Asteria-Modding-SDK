@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[Sirenix.OdinInspector.HideMonoScript]
 [CreateAssetMenu(fileName = "DefaultLanguage", menuName = "Asteria/Language", order = 1)]
 public class Language : ScriptableObject
 {

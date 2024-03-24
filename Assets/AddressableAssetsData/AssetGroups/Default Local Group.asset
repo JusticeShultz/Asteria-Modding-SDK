@@ -16,27 +16,7 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 7c85170e1999b1d44b5b92d5b833c9fa
-  m_SerializeEntries:
-  - m_GUID: da5c608f05b64ab489265f981029617c
-    m_Address: TestMod/NebulaPendant
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 35109dbbb4585ea43ac12ebb10dc557a
-    m_Address: TestMod/NebulaPendant_Item
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: 84a57b488eb879f4a8a53d07abcb0dbc
-    m_Address: DuckMod/RightDuck
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
-  - m_GUID: c4d6102a9a0e69142bb57f253f2914f0
-    m_Address: DuckMod/LeftDuck
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    FlaggedDuringContentUpdateRestriction: 0
+  m_SerializeEntries: []
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: ad22a66722f36c54991693c9b87eac98, type: 2}
   m_SchemaSet:
